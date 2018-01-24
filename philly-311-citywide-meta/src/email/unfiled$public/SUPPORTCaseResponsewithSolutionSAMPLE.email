@@ -1,0 +1,16 @@
+Dear {!Contact.FirstName}, 
+
+Thank your for contacting the City of Philadelphia's 311 Contact Center in reference to {!Case.Description}. The following is in response to your inquiry. 
+
+{!Case.Solution_Description} 
+
+
+For additional information related to this case you may contact us by dialing 3-1-1 or 215-686-8686 or via email at Philly311@phila.gov. 
+
+Please note we are undergoing system upgrades and the above case number is not currently available for tracking online. 
+Regards, 
+
+Philly311 
+Customer Support 
+
+{!Case.Solution_Attachments}

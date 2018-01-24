@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Fields belonging to a Record Type</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Case_Record_Type__c</fullName>
+        <description>Case Record Type</description>
+        <externalId>false</externalId>
+        <label>Case Record Type</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Fields_1__c</fullName>
+        <description>API Name of the Fields</description>
+        <externalId>false</externalId>
+        <label>Custom Fields 1</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Fields_2__c</fullName>
+        <description>API Name of the Fields</description>
+        <externalId>false</externalId>
+        <label>Custom Fields 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Fields_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Fields 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Encrypted_Code_Name_1__c</fullName>
+        <description>Encrypted value for Corresponding Field in Custom Field 1</description>
+        <externalId>false</externalId>
+        <label>Encrypted Code Name 1</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Encrypted_Code_Name_2__c</fullName>
+        <description>Encrypted value for Corresponding Field Custom Fields 2</description>
+        <externalId>false</externalId>
+        <label>Encrypted Code Name 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Encrypted_Code_Name_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Encrypted Code Name 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Not_Required_Fields__c</fullName>
+        <description>Enter all Not Required Field&apos;s Encrypted Code</description>
+        <externalId>false</externalId>
+        <label>Not Required Fields</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Open311Field</label>
+    <visibility>Protected</visibility>
+</CustomObject>

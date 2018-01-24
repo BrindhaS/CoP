@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To request the grass to be cut/mowed at a Recreation Center</description>
+    <label>Parks and Rec Safety and Maintenance</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Parks_and_Rec_Safety_and_Maintenance</name>
+        <label>Parks and Rec Safety and Maintenance</label>
+        <locationX>360</locationX>
+        <locationY>143</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Purpose</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Purpose:&lt;/B&gt;  To report a problem at a park or recreation center.&lt;/FONT&gt;&lt;/SPAN&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Contactfields</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Contact &lt;/U&gt;&lt;/B&gt;&lt;B&gt;fields: &lt;/B&gt; Enter the the customer’s name and contact information.&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Advise the customer that this information is requested in the event the department needs to obtain more information to follow up on this request.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If the customer does not wish to leave their contact information, advise the customer that if the department cannot locate the issues identified, the case will have to be closed out.  Ask  the customer, “Are you sure you want to submit this request anonymously?”&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ServiceAddressfields</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Service Address &lt;/U&gt;&lt;/B&gt;&lt;B&gt;fields: &lt;/B&gt; Enter the name or address of the Park or Recreation Center, or other facility.&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Verify that you entered the address correctly by repeating the address back to the customer.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Descriptionfield</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Description&lt;/U&gt;&lt;/B&gt;&lt;B&gt; field:  &lt;/B&gt;Enter specific details about the reported problem.&lt;/FONT&gt;&lt;/SPAN&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Advisethecustomer</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Advise the customer:&lt;/B&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If the property is not owned by the City of Philadelphia Parks and Recreation Department, this is a private property issue and the customer should contact the property owner. Private property to Maintenance Residential and commercial.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Grass Cutting&lt;/U&gt;&lt;/B&gt;&lt;B&gt; request:  &lt;/B&gt;The Recreation Maintenance Division will inspect the site.  Refer to Service Request for SLA.  Grass cutting is done by city contractors.  Facilities are on a rotating two week schedule.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Hazardous Playground Condition &lt;/U&gt;&lt;/B&gt;&lt;B&gt;request:&lt;/B&gt;  The Recreation Maintenance Division will inspect the site and make safe within 24 hours.  Refer to Service Request for follow up SLA.  Repairs will be delayed if special parts/equipment are required.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Recreation Center Housekeeping&lt;/U&gt;&lt;/B&gt;&lt;B&gt; request: &lt;/B&gt; The Recreation Maintenance Division will inspect the site and make safe within 24 hours.  Refer to Service Request for follow up SLA.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Recreation Center Maintenance and Mechanical Problems: &lt;/U&gt;&lt;/B&gt; The Recreation Maintenance Division will inspect the site and make repairs. Refer to Service Request for SLA.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Park Safety and Maintenance Problems:  &lt;/U&gt;&lt;/B&gt;Depending on the severity of the issue, Fairmount Park will schedule an inspection. Refer to Service Request for SLA. To discuss further, a 3-1-1 Supervisor may contact Fairmount Park at 215-683-0221.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Dead Tree or Fallen Branches: &lt;/U&gt;&lt;/B&gt; The Recreation Maintenance Division will inspect the site and address the issue(s). Refer to Service Request for SLA.  The Recreation Department works with Fairmount Park to determine proper ways to correct tree issues.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If escalation is required due to dissatisfaction with the safety or maintenance problem, or not receiving a confirmation, escalate to a Philly311 Supervisor.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+    </screens>
+    <startElementReference>Parks_and_Rec_Safety_and_Maintenance</startElementReference>
+</Flow>

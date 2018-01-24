@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_56595225</developerName>
+        <masterLabel>Past SLA(Business) Days</masterLabel>
+        <nullTreatment>z</nullTreatment>
+        <sourceColumnName>Case.SLA_Past_days__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>90</to>
+            </sourceValues>
+            <value>Up to 90 Days</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>90</from>
+                <to>120</to>
+            </sourceValues>
+            <value>Between 90 to 120 Days</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>120</from>
+            </sourceValues>
+            <value>Over 120 Days</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>Case.Ticket__c</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>RECORDTYPE</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>CASE_COMMENT</field>
+    </columns>
+    <columns>
+        <field>Case.Hansen_Request_ID__c</field>
+    </columns>
+    <columns>
+        <field>CASE_ID</field>
+    </columns>
+    <description>From: Mary Bibbo
+close all Abandoned Auto Cases prior to 12/31/2014 during the data migration.</description>
+    <filter>
+        <criteriaItems>
+            <column>STATUS</column>
+            <operator>notEqual</operator>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Case.Vacant_Lot_Clean_Up</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Abandoned Auto - Ordered to be CLOSED</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>CREATED_DATE</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <endDate>2014-08-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>1900-01-01</startDate>
+    </timeFrameFilter>
+</Report>

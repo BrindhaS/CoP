@@ -1,0 +1,14 @@
+Dear {!Contact.FirstName}, 
+
+Your Salesforce self-service portal log in ID and password information is below. 
+
+Log in ID: [INSERT ID] 
+
+Password: [INSERT PASSWORD] 
+
+Please contact us should you have any questions or problems logging in. 
+
+Thank you, 
+
+Philly311 
+Customer Support

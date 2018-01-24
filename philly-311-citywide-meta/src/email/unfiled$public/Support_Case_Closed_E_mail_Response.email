@@ -1,0 +1,9 @@
+Dear {!Contact.FirstName}, 
+
+Thank you for submitting your request. Please be advised that Case #{!Case.CaseNumber} with case thread id {!Case.Thread_Id}: regarding "{!Case.RecordType}" has been closed. For additional information related to the status of this case you may contact us via telephone by dialing 3-1-1 or 215-686-8686 or email at sfdc311unisys@gmail.com. 
+
+
+Thank you, 
+
+{!Organization.Name} 
+Customer Support

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Campaign Name --></label>
+        <name>Campaign_Name__c</name>
+        <picklistValues>
+            <masterLabel>Market East Community</masterLabel>
+            <translation><!-- Market East Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Liaison</masterLabel>
+            <translation><!-- Neighborhood Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philly Rising Neighborhood Liaisons</masterLabel>
+            <translation><!-- Philly Rising Neighborhood Liaisons --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campaigns --></label>
+        <name>Campaigns__c</name>
+        <picklistValues>
+            <masterLabel>Market East Community</masterLabel>
+            <translation><!-- Market East Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Liaison</masterLabel>
+            <translation><!-- Neighborhood Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philly Rising Neighborhood Liasons Program</masterLabel>
+            <translation><!-- Philly Rising Neighborhood Liasons Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DB Created Date without Time --></label>
+        <name>DB_Created_Date_without_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Lead Age --></label>
+        <name>DB_Lead_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Override DupeCatcher --></label>
+        <name>SFSSDupeCatcher__Override_DupeCatcher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Image Url --></label>
+        <name>sf4twitter__Fcbk_Image_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Picture --></label>
+        <name>sf4twitter__Fcbk_Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Profile Url --></label>
+        <name>sf4twitter__Fcbk_Profile_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook User Id --></label>
+        <name>sf4twitter__Fcbk_User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Username --></label>
+        <name>sf4twitter__Fcbk_Username__c</name>
+    </fields>
+    <fields>
+        <help>单击链接以更改以下状态</help>
+        <label><!-- Following on Twitter --></label>
+        <name>sf4twitter__Follow_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Klout Number --></label>
+        <name>sf4twitter__Klout_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Klout Score --></label>
+        <name>sf4twitter__Klout_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>sf4twitter__Origin__c</name>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation>Facebook</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation>Twitter</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Twitter Bio --></label>
+        <name>sf4twitter__Twitter_Bio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Creation Date --></label>
+        <name>sf4twitter__Twitter_Creation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Follower count --></label>
+        <name>sf4twitter__Twitter_Follower_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Following count --></label>
+        <name>sf4twitter__Twitter_Following_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Image Url --></label>
+        <name>sf4twitter__Twitter_Image_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Last tweet --></label>
+        <name>sf4twitter__Twitter_Last_tweet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Location --></label>
+        <name>sf4twitter__Twitter_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Picture --></label>
+        <name>sf4twitter__Twitter_Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Status count --></label>
+        <name>sf4twitter__Twitter_Status_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter User Id --></label>
+        <name>sf4twitter__Twitter_User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Username --></label>
+        <name>sf4twitter__Twitter_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Followed --></label>
+        <name>sf4twitter__followed__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Author_Info_Massive --></label>
+        <name>sf4twitter__Get_Author_Info_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Klout_Score --></label>
+        <name>sf4twitter__Get_Klout_Score</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Klout_Score_Massive --></label>
+        <name>sf4twitter__Get_Klout_Score_Massive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_Twitter_Username --></label>
+        <name>sf4twitter__Get_Twitter_Username</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Search_Twitter_Username --></label>
+        <name>sf4twitter__Search_Twitter_Username</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Twitter_Information --></label>
+        <name>sf4twitter__Update_Twitter_Information</name>
+    </webLinks>
+</CustomObjectTranslation>

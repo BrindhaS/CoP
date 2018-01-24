@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$RecordType</field>
+    </columns>
+    <columns>
+        <field>Case.CaseComments$LastModifiedDate</field>
+    </columns>
+    <columns>
+        <field>Case.CaseComments$CommentBody</field>
+    </columns>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <description>All mobile app comments which status is closed.</description>
+    <filter>
+        <criteriaItems>
+            <column>Case.CaseComments$CommentBody</column>
+            <operator>contains</operator>
+            <value>Comment from PublicStuff User:</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <operator>equals</operator>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$LastModifiedDate</column>
+            <operator>greaterThan</operator>
+            <value>2/24/2015 12:00 AM</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>obile App Comment - Closed Status Only</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_With_Case_Comments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Case.CaseComments$CreatedDate</dateColumn>
+        <interval>INTERVAL_PREVCURY</interval>
+    </timeFrameFilter>
+</Report>

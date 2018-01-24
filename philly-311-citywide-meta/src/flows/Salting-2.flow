@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To request snow plowing and salting for a street.</description>
+    <label>Salting</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Salting</name>
+        <label>Salting</label>
+        <locationX>118</locationX>
+        <locationY>218</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Purpose</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Purpose:  &lt;/U&gt;&lt;/B&gt;&lt;FONT KERNING=&quot;1&quot;&gt;To request snow plowing and salting for a street.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Unless directed to do so by a supervisor or designee, an agent CANNOT submit cases for plowing, salting or other snow related issues. &lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Contactfields</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Contact fields: &lt;/U&gt;&lt;/B&gt;&lt;FONT KERNING=&quot;1&quot;&gt;Enter the customer’s contact information.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ServiceAddressfields</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Service Address fields:  &lt;/U&gt;&lt;/B&gt;Enter the address of the street to be plowed or salted.&lt;/FONT&gt;&lt;/SPAN&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Descriptionfield</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Description field:  &lt;/U&gt;&lt;/B&gt;Enter any additional information about the request snow plowing and salting.&lt;/FONT&gt;&lt;/SPAN&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Advisethecustomer</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Advise the customer: &lt;/U&gt;&lt;/B&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;The Streets Department will take specific location requests AFTER an actual snow/ice event, NOT DURING the snow/ice event.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Requests should be responded to within 24 hours of the end of the snow/ice event.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;When Streets Department is NOT taking cases for salting or shoveling, advise the customer:&lt;/U&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Streets Department is not taking specific location requests for salting during the snow because they are already out addressing the roads.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Streets Department cannot accept a report for residents who have not cleared the sidewalk because property owners have up to 6 hours after the end of the snow to clear.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Streets Department will accept cases for salting and reports of residents who have not shoveled their sidewalks, 6 hours AFTER the snow-related event has ended. Please call 311 back then to report or report via the Mobile Application once the snow has ended.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;To find out when a particular City street will be plowed/salted &lt;/U&gt;during winter weather:  Enter the customer’s address at &lt;FONT COLOR=&quot;#0066CC&quot;&gt;&lt;A HREF=&quot;http://citymaps.phila.gov/citymaps/cmAddressRequest.aspx?URL=cmServiceAreaRequest.aspx&quot; TARGET=&quot;_blank&quot;&gt;&lt;U&gt;http://citymaps.phila.gov/citymaps/cmAddressRequest.aspx?URL=cmServiceAreaRequest.aspx&lt;/U&gt;&lt;/A&gt;&lt;FONT COLOR=&quot;#000000&quot;&gt; then click &amp;quot;Find&amp;quot; then select &amp;quot;Snow Categories&amp;quot;. &lt;/FONT&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;City response to winter weather: &lt;/U&gt;&lt;FONT COLOR=&quot;#006699&quot;&gt;&lt;A HREF=&quot;http://www.phila.gov/streets/snowcat.html&quot; TARGET=&quot;_blank&quot;&gt;http://www.phila.gov/streets/snowcat.html&lt;/A&gt;.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;City area weather information:  &lt;/U&gt;&lt;FONT COLOR=&quot;#006699&quot;&gt;&lt;A HREF=&quot;http://http://weather.noaa.gov/cgi-bin/iwszone?Sites=:paz071&quot; TARGET=&quot;_blank&quot;&gt;http://weather.noaa.gov/cgi-bin/iwszone?Sites=:paz071&lt;/A&gt;&lt;FONT COLOR=&quot;#000000&quot;&gt;.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;Snow Cat&lt;/U&gt; is a system that identifies various categories of weather conditions and indicates what the City&amp;apos;s response will be to each category.&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+    </screens>
+    <startElementReference>Salting</startElementReference>
+</Flow>

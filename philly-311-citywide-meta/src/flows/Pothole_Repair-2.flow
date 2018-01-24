@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choices>
+        <name>Advise_constituent</name>
+        <choiceText>General Information</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Advise constituent general Information</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Cave_In_Customer_Service_Standard</name>
+        <choiceText>Cave-In Customer Service Standard</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Cave-In Customer Service Standard</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Ditch_Customer_Service_Standard</name>
+        <choiceText>Ditch Customer Service Standard</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Ditch Customer Service Standard</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Pothole_Customer_Service_Standard</name>
+        <choiceText>Pothole Customer Service Standard</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Pothole Customer Service Standard</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Additional_Information_on</name>
+        <label>Additional Information on?</label>
+        <locationX>392</locationX>
+        <locationY>165</locationY>
+        <defaultConnectorLabel>Default</defaultConnectorLabel>
+        <rules>
+            <name>General_Info</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Additional_Information_Required_on</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Advise constituent general Information</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>General_Information</targetReference>
+            </connector>
+            <label>General Info</label>
+        </rules>
+        <rules>
+            <name>Pothole1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Additional_Information_Required_on</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pothole Customer Service Standard</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pothole_Customer_Service_Standard1</targetReference>
+            </connector>
+            <label>Pothole</label>
+        </rules>
+        <rules>
+            <name>Cave_in</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Additional_Information_Required_on</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cave-In Customer Service Standard</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Cave-in</label>
+        </rules>
+        <rules>
+            <name>Ditch1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Additional_Information_Required_on</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ditch Customer Service Standard</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Ditch</label>
+        </rules>
+    </decisions>
+    <description>With Name Changes</description>
+    <label>Pothole Repair</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Basic_Information_Screen</name>
+        <label>Basic Information Screen</label>
+        <locationX>394</locationX>
+        <locationY>30</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Additional_Information_on</targetReference>
+        </connector>
+        <fields>
+            <name>BasicInformationscreen</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt; &lt;B&gt;Purpose&lt;/B&gt;:  To report a pothole, cave-in, or ditch for repair.&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;Potholes&lt;/U&gt; are bowl-shaped openings up to 10 inches deep.  They occur when the top layer of the road has worn away, exposing the concrete base.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;Cave-ins&lt;/U&gt; (also called sinkholes) reach past the concrete base of the road. This void can occur when the dirt below the concrete base has washed away, causing the upper surfaces to fall through.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;U&gt;Ditches&lt;/U&gt; are rectangular excavations in the road made by utilities and plumbers to reach underground lines. The contractors are responsible for filling the ditch and paving it temporarily and notifying the city upon completion. The Highways Division then schedules a permanent repair to the road. If a ditch is not backfilled properly, it will wash out or sink in, leaving a large hole.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ContactInfo</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Contact&lt;/B&gt; information is required in case Streets Department must reach out for further information.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;Service Address&lt;/B&gt; is the exact address or intersection where problem is located.  It may be a street address near where the problem is located, or an intersection.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;In the &lt;B&gt;Description &lt;/B&gt;field, provide any additional information that will help the Streets Department locate and identify the problem.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Additional_Information_Required_on</name>
+            <choiceReferences>Advise_constituent</choiceReferences>
+            <choiceReferences>Pothole_Customer_Service_Standard</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Advise constituent on ?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+    </screens>
+    <screens>
+        <name>General_Information</name>
+        <label>General Information</label>
+        <locationX>67</locationX>
+        <locationY>317</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>GeneralInfo</name>
+            <fieldText>&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;When a work order is closed, and a new problem is reported at that same location, if 7 calendar days have passed the Streets Department will create a new work order for the problem at that location&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;Redress:  If the Streets Department closes a case as completed, a constituent disagree that the problem associated with that case was fixed, the constituent can report the problem to 311 and the Streets Department will inspect the problem again. Current Process – 311 handles this as a new service request.  System can calculate if the request is less than 30 days.  If Redress?  (1) Case must be same issue, status of closed, and less than 30 days, then agent can change the status of the change to Redress, which triggers an email to the Streets Dept.  If more than 30 days, open a new service request – cannot change Redress to ‘Yes’.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Some problems are repaired by outside agencies:&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If there is gas escaping from the hole, then 911 should be called immediately.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If there is water running through the hole, then it is serviced by the Water Department.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;1&quot;&gt;If the hole is on a interstate highway, then it is filled by Pennsylvania Department of Transportation (PennDOT).&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+    </screens>
+    <screens>
+        <name>Pothole_Customer_Service_Standard1</name>
+        <label>Pothole Customer Service Standard:</label>
+        <locationX>244</locationX>
+        <locationY>323</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Pothole</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;U&gt;Pothole Customer Service Standard:&lt;/U&gt;&lt;/B&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Initial complaints will be investigated within 24 hours when called in before 2 PM, and can take up to 3 business days to repair when completed by the Streets Department. Potholes filled by a non-city agency may take longer to fill.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Response time of 3 business days (Requests reported by 2 p.m. Monday through Friday will be repaired within 3 business days)&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Redress - The Streets Department will notify customers if the repair is not made within 3 days.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If the pothole request is forwarded to an outside agency or if the pothole is reclassified, the Streets Department will contact the customer to advise of the SLA change.&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+    </screens>
+    <startElementReference>Basic_Information_Screen</startElementReference>
+</Flow>

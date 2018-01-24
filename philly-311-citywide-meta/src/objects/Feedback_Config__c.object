@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <description>Set the owner of created records to the ID that matches this name.  An owner may be either a user or a queue.  If no value is specified the logged-in user will be its owner.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set the owner of created records to the ID that matches this name.  An owner may be either a user or a queue.  If no value is specified the logged-in user will be its owner.</inlineHelpText>
+        <label>Owner</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_URI__c</fullName>
+        <externalId>false</externalId>
+        <label>Post URI</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Product_Category__c</fullName>
+        <description>The default product/category for the new feedback item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The default product/category for the new feedback item.</inlineHelpText>
+        <label>Product Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Use_Post_URI__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Use Post URI</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Feedback Config</label>
+    <visibility>Public</visibility>
+</CustomObject>

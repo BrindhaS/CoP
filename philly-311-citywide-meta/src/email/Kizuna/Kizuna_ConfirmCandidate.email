@@ -1,0 +1,10 @@
+Hello {!Candidate__c.FirstName__c}  {!Candidate__c.LastName__c},
+As a step of entry, please validate the email address {!Candidate__c.Email__c}.
+
+Copy and paste the confirmation code below into the form.
+------
+{!Candidate__c.ConfirmationCode__c}
+-----
+
+Thank you,
+{!Organization.Name}

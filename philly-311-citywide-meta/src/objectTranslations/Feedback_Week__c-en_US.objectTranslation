@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feedback Week</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feedback Weeks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ending Date --></label>
+        <name>Ending_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback --></label>
+        <name>Feedback__c</name>
+        <relationshipLabel><!-- Feedback Weeks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Friday Hours --></label>
+        <name>Friday_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monday Hours --></label>
+        <name>Monday_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saturday Hours --></label>
+        <name>Saturday_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sunday Hours --></label>
+        <name>Sunday_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thursday Hours --></label>
+        <name>Thursday_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours --></label>
+        <name>Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tuesday Hours --></label>
+        <name>Tuesday_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Feedback Weeks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Wednesday Hours --></label>
+        <name>Wednesday_Hours__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

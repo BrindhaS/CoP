@@ -1,0 +1,20 @@
+*** NEW CASE ASSIGNMENT NOTIFICATION *** 
+
+The following case has been created and is assigned to you. Please process accordingly. 
+
+Company: {!Account.Name} 
+Contact Name: {!Contact.Name} 
+Case #: {!Case.CaseNumber} 
+Subject: {!Case.Subject} 
+Description: {!Case.Description} 
+SLA : {!Case.SLA__c}
+
+Click on the respective link to access the case:
+Internal Users: {!Case.Link} 
+Partner Users: https://philly.force.com/internal/{!Case.Id}
+ 
+
+Thank you, 
+
+{!Organization.Name}
+Customer Support

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>311 Request Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>311 Request Types</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Link --></label>
+        <name>Case_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case RecordTypeId --></label>
+        <name>Case_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Case RecordType Developer Name. --></help>
+        <label><!-- Case RecordType Name --></label>
+        <name>Case_RecordType_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>311 Contact Center</masterLabel>
+            <translation><!-- 311 Contact Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Directory Assistance</masterLabel>
+            <translation><!-- Directory Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Department</masterLabel>
+            <translation><!-- Fire Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License &amp; Inspections</masterLabel>
+            <translation><!-- License &amp; Inspections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Services</masterLabel>
+            <translation><!-- Neighborhood Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parks &amp; Recreation</masterLabel>
+            <translation><!-- Parks &amp; Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police Department</masterLabel>
+            <translation><!-- Police Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Streets Department</masterLabel>
+            <translation><!-- Streets Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Department</masterLabel>
+            <translation><!-- Water Department --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of when this Request Type is appropriate. --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter comma separated list of keywords which will bring up this type. --></help>
+        <label><!-- Keywords --></label>
+        <name>Keywords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Category --></label>
+        <name>Request_Category__c</name>
+        <picklistValues>
+            <masterLabel>Directory Services</masterLabel>
+            <translation><!-- Directory Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Request Type</masterLabel>
+            <translation><!-- Information Request Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Request Type</masterLabel>
+            <translation><!-- Service Request Type --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Code --></label>
+        <name>Service_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- metadata --></label>
+        <name>metadata__c</name>
+    </fields>
+    <fields>
+        <label><!-- requiresGeocode --></label>
+        <name>requiresGeocode__c</name>
+    </fields>
+    <layouts>
+        <layout>311 Request Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

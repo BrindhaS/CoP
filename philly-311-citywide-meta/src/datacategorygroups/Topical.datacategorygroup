@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Arts &amp; Entertainment Events</label>
+                <name>Arts_Entertainment_Events</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Libraries, Museums, &amp; Cultural Venues</label>
+                <name>Libraries_Museums_Cultural_Venues</name>
+            </dataCategory>
+            <label>Arts &amp; Culture</label>
+            <name>Arts_Culture</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Business Assistance, Incentives, &amp; Promo</label>
+                <name>Business_Assistance_Incentives_Promo</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Eclipse</label>
+                    <name>Eclipse</name>
+                </dataCategory>
+                <label>Business Regulation &amp; Licensing</label>
+                <name>Business_Regulation_Licensing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Business Taxation</label>
+                <name>Business_Taxation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Economic Development</label>
+                <name>Economic_Development</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Entrepreneurship</label>
+                <name>Entrepreneurship</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Labor Market Facts &amp; Figures</label>
+                <name>Labor_Market_Facts_Figures</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Local Economy</label>
+                <name>Local_Economy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Small Business</label>
+                <name>Small_Business</name>
+            </dataCategory>
+            <label>Business</label>
+            <name>Business</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Agriculture &amp; Food Supply</label>
+                <name>Agriculture_Food_Supply</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Beautification &amp; Nuisance Reduction</label>
+                <name>Beautification_Nuisance_Reduction</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Births, Deaths, Weddings &amp; Life Events</label>
+                <name>Births_Deaths_Weddings_Life_Events</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Community Facilities</label>
+                <name>Community_Facilities</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Community Revitalization</label>
+                <name>Community_Revitalization</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cultural Preservation</label>
+                <name>Cultural_Preservation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Facts &amp; Figures</label>
+                <name>Facts_Figures</name>
+            </dataCategory>
+            <dataCategory>
+                <label>History</label>
+                <name>History</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Immigration &amp; Nationality</label>
+                <name>Immigration_Nationality</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Neighborhood Associations</label>
+                <name>Neighborhood_Associations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Neighborhood Programs &amp; Events</label>
+                <name>Neighborhood_Programs_Events</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Neighborhoods</label>
+                <name>Neighborhoods</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Non-Governmental Organizations</label>
+                <name>Non_Governmental_Organizations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Poverty Alleviation</label>
+                <name>Poverty_Alleviation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Social &amp; Support Groups</label>
+                <name>Social_Support_Groups</name>
+            </dataCategory>
+            <label>Community</label>
+            <name>Community</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Adult, Community &amp; Continuing Education</label>
+                <name>Adult_Community_Continuing_Education</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Alternative Schools</label>
+                <name>Alternative_Schools</name>
+            </dataCategory>
+            <dataCategory>
+                <label>College Preparatory Programs</label>
+                <name>College_Preparatory_Programs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Higher Education</label>
+                <name>Higher_Education</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Homeschooling</label>
+                <name>Homeschooling</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Job Training &amp; Placement</label>
+                <name>Job_Training_Placement</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Preschool Education</label>
+                <name>Preschool_Education</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Public &amp; Private Schools</label>
+                <name>Public_Private_Schools</name>
+            </dataCategory>
+            <dataCategory>
+                <label>School Administration</label>
+                <name>School_Administration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>School Social Service</label>
+                <name>School_Social_Service</name>
+            </dataCategory>
+            <dataCategory>
+                <label>School Violence</label>
+                <name>School_Violence</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Special Educational Needs</label>
+                <name>Special_Educational_Needs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Teacher Recruitment &amp; Training</label>
+                <name>Teacher_Recruitment_Training</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vocational Education</label>
+                <name>Vocational_Education</name>
+            </dataCategory>
+            <label>Education</label>
+            <name>Education</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Employment Rights &amp; Regulations</label>
+                <name>Employment_Rights_Regulations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Government Employment Opportunities</label>
+                <name>Government_Employment_Opportunities</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Self employment</label>
+                <name>Self_employment</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Unemployment &amp; Jobseeking</label>
+                <name>Unemployment_Jobseeking</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Youth Employment</label>
+                <name>Youth_Employment</name>
+            </dataCategory>
+            <label>Employment</label>
+            <name>Employment</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Air Quality</label>
+                <name>Air_Quality</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Climate</label>
+                <name>Climate</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Climate Change</label>
+                <name>Climate_Change</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ecosystems</label>
+                <name>Ecosystems</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Energy Resources</label>
+                <name>Energy_Resources</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Environmental Education</label>
+                <name>Environmental_Education</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Environmental Ethics</label>
+                <name>Environmental_Ethics</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Environmental Health</label>
+                <name>Environmental_Health</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Environmental Protection</label>
+                <name>Environmental_Protection</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Environmental Regulation</label>
+                <name>Environmental_Regulation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Growth Management</label>
+                <name>Growth_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Hazardous &amp; Solid Waste</label>
+                <name>Hazardous_Solid_Waste</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Hazardous Materials</label>
+                <name>Hazardous_Materials</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Land Resources</label>
+                <name>Land_Resources</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recycling</label>
+                <name>Recycling</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sustainability</label>
+                <name>Sustainability</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Waste Management &amp; Recycling</label>
+                <name>Waste_Management_Recycling</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Water Resources</label>
+                <name>Water_Resources</name>
+            </dataCategory>
+            <label>Environment</label>
+            <name>Environment</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Account &amp; Annual Budget &amp; Operating Plan</label>
+                <name>Account_Annual_Budget_Operating_Plan</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Administrative &amp; Regulatory Reform</label>
+                <name>Administrative_Regulatory_Reform</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Banking</label>
+                <name>Banking</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Civic Engagement &amp; Social Capital</label>
+                <name>Civic_Engagement_Social_Capital</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Civil Liberties</label>
+                <name>Civil_Liberties</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Complaints &amp; Service Requests</label>
+                <name>Complaints_Service_Requests</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Democratization</label>
+                <name>Democratization</name>
+            </dataCategory>
+            <dataCategory>
+                <label>E-Government</label>
+                <name>E_Government</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Elected Officials</label>
+                <name>Elected_Officials</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Elections &amp; Voting</label>
+                <name>Elections_Voting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Electoral Politics</label>
+                <name>Electoral_Politics</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Employees</label>
+                <name>Employees</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Federal &amp; State Government Services</label>
+                <name>Federal_State_Government_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fees &amp; Payment Information</label>
+                <name>Fees_Payment_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Government Finance</label>
+                <name>Government_Finance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Microfinance</label>
+                <name>Microfinance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Human Resources</label>
+                <name>Human_Resources</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Labor Relations</label>
+                <name>Labor_Relations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Leadership</label>
+                <name>Leadership</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Local Government Agencies &amp; Departments</label>
+                <name>Local_Government_Agencies_Departments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Local Government Records</label>
+                <name>Local_Government_Records</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Local Government Services</label>
+                <name>Local_Government_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Performance Measurement &amp; Management</label>
+                <name>Performance_Measurement_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Permits, Inspections &amp; Certifications</label>
+                <name>Permits_Inspections_Certifications</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Policy Making</label>
+                <name>Policy_Making</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Privatization</label>
+                <name>Privatization</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Procurement</label>
+                <name>Procurement_Govt</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Public Communications</label>
+                <name>Public_Communications</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Service Delivery</label>
+                <name>Service_Delivery</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Taxation &amp; Revenue</label>
+                <name>Taxation_Revenue</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Wards &amp; Neighborhoods</label>
+                <name>Wards_Neighborhoods</name>
+            </dataCategory>
+            <label>Government</label>
+            <name>Government</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Animal Control</label>
+                <name>Animal_Control</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Access &amp; Insurance</label>
+                <name>Access_Insurance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Food Safety</label>
+                <name>Food_Safety</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Gender, Race &amp; Ethnicity Issues</label>
+                <name>Gender_Race_Ethnicity_Issues</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Care Administration</label>
+                <name>Health_Care_Administration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Immunizations</label>
+                <name>Immunizations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Long-Term Care</label>
+                <name>Long_Term_Care</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medical Education &amp; Research</label>
+                <name>Medical_Education_Research</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mental Health Services</label>
+                <name>Mental_Health_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Nutrition &amp; Preventative Care</label>
+                <name>Nutrition_Preventative_Care</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Public Assistance</label>
+                <name>Public_Assistance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Public Health</label>
+                <name>Public_Health</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Primary Care</label>
+                <name>Primary_Care</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Services to Specific Populations</label>
+                <name>Services_to_Specific_Populations</name>
+            </dataCategory>
+            <label>Health</label>
+            <name>Health</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Home Ownership</label>
+                <name>Home_Ownership</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Home Rental</label>
+                <name>Home_Rental</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Home Repairs &amp; Renovation</label>
+                <name>Home_Repairs_Renovation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Homelessness</label>
+                <name>Homelessness</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Housing Financial Programs</label>
+                <name>Housing_Financial_Programs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Relocation</label>
+                <name>Relocation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Temporary Housing</label>
+                <name>Temporary_Housing</name>
+            </dataCategory>
+            <label>Housing</label>
+            <name>Housing</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Communications Networks &amp; Services</label>
+                <name>Communications_Networks_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Construction, Maintenance, &amp; Improvement</label>
+                <name>Construction_Maintenance_Improvement</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Electric, Gas, Sewer, &amp; Water Utilities</label>
+                <name>Electric_Gas_Sewer_Water_Utilities</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Energy Supply &amp; Distribution</label>
+                <name>Energy_Supply_Distribution</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Highways</label>
+                <name>Highways</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sanitation</label>
+                <name>Sanitation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Streets, Sidewalks,  &amp; Streetlighting</label>
+                <name>Streets_Sidewalks_Streetlighting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Telephone, Cable TV, &amp; Internet</label>
+                <name>Telephone_Cable_TV_Internet</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Utilities</label>
+                <name>Utilities</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Water Supply &amp; Distribution</label>
+                <name>Water_Supply_Distribution</name>
+            </dataCategory>
+            <label>Infrastructure</label>
+            <name>Infrastructure</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Children &amp; Teens Activities</label>
+                <name>Children_Teens_Activities</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Gambling &amp; Lotteries</label>
+                <name>Gambling_Lotteries</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Parks &amp; Gardens</label>
+                <name>Parks_Gardens</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pets &amp; Animals</label>
+                <name>Pets_Animals</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Shopping &amp; Dining</label>
+                <name>Shopping_Dining</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sports &amp; Recreation</label>
+                <name>Sports_Recreation</name>
+            </dataCategory>
+            <label>Leisure</label>
+            <name>Leisure</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Ambulance &amp; Emergency Services</label>
+                <name>Ambulance_Emergency_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Corrections</label>
+                <name>Corrections</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Courts &amp; Legal Services</label>
+                <name>Courts_Legal_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Defense Services</label>
+                <name>Defense_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Emergency Management</label>
+                <name>Emergency_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire Department</label>
+                <name>Fire_Department</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire Prevention &amp; Response</label>
+                <name>Fire_Prevention_Response</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Homeland Security</label>
+                <name>Homeland_Security</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Juvenile Justice</label>
+                <name>Juvenile_Justice</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Legal Assistance</label>
+                <name>Legal_Assistance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>National Law Enforcement</label>
+                <name>National_Law_Enforcement</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Police &amp; Crime Prevention</label>
+                <name>Police_Crime_Prevention</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Probation &amp; Parole</label>
+                <name>Probation_Parole</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Substance Abuse Treatment &amp; Prevention</label>
+                <name>Substance_Abuse_Treatment_Prevention</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Violence &amp; Abuse</label>
+                <name>Violence_Abuse</name>
+            </dataCategory>
+            <label>Public Safety</label>
+            <name>Public_Safety</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Administration</label>
+                <name>Administration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Asset Management</label>
+                <name>Asset_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Communications</label>
+                <name>Communications</name>
+            </dataCategory>
+            <dataCategory>
+                <label>EA</label>
+                <name>EA</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Governance</label>
+                <name>Governance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ITIL</label>
+                <name>ITIL</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Knowledge Management</label>
+                <name>Knowledge_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PMIS</label>
+                <name>PMIS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Procurement</label>
+                <name>Procurement_Tech</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Project Management</label>
+                <name>Project_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Risk Management</label>
+                <name>Risk_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>SDLC</label>
+                <name>SDLC</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Security</label>
+                <name>Security</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Service Management</label>
+                <name>Service_Management</name>
+            </dataCategory>
+            <label>Technology</label>
+            <name>Technology</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Airports</label>
+                <name>Airports</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Motor Vehicles</label>
+                <name>Motor_Vehicles</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Parking</label>
+                <name>Parking</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Public Transportation</label>
+                <name>Public_Transportation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Rail &amp; Water Transportation</label>
+                <name>Rail_Water_Transportation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Traffic Control</label>
+                <name>Traffic_Control</name>
+            </dataCategory>
+            <label>Transportation</label>
+            <name>Transportation</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Development</label>
+                <name>Development</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Land Acquisition &amp; Reutilization</label>
+                <name>Land_Acquisition_Reutilization</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Planning</label>
+                <name>Planning</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Preservation</label>
+                <name>Preservation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Zoning</label>
+                <name>Zoning</name>
+            </dataCategory>
+            <label>Urban Development</label>
+            <name>Urban_Development</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>Root category</description>
+    <label>Topical</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

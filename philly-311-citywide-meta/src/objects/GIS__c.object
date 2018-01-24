@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Organization-wide defaults for GIS and ESRI integration</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BaseMaps__c</fullName>
+        <description>The address basemaps, separated by semicolons.  Don&apos;t include the entire URL, only the url AFTER /services/ in the ESRI base URL location.
+
+For instance, BaseMaps/Aerial2010;BaseMaps/GrayBase</description>
+        <externalId>false</externalId>
+        <label>BaseMaps</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ESRIServices__c</fullName>
+        <description>The URL of the ESRI ArcGIS server&apos;s &quot;services.&quot;  The current URL is &quot;http://gis.phila.gov/arcgis/rest/services&quot;</description>
+        <externalId>false</externalId>
+        <label>ESRIServices</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>GISRestEndpoint__c</fullName>
+        <description>URL of the GIS REST service</description>
+        <externalId>false</externalId>
+        <label>GISRestEndpoint</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>GeometryServer__c</fullName>
+        <description>Base URL of the ESRI Geometry Server</description>
+        <externalId>false</externalId>
+        <label>GeometryServer</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>GIS</label>
+    <visibility>Public</visibility>
+</CustomObject>

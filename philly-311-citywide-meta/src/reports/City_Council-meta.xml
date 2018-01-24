@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>daniel.ramos@phila.gov</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>CityCouncil1stDistrictMARKSQUILLAPartnerUser</sharedTo>
+        <sharedToType>PortalRole</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>CityCouncilatLargeDAVIDOHPartnerUser1</sharedTo>
+        <sharedToType>PortalRole</sharedToType>
+    </folderShares>
+    <name>City Council</name>
+</ReportFolder>

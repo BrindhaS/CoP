@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Philly_Rising</letterhead>
+    <name>Marketing_Campaign</name>
+    <style>formalLetter</style>
+    <subject>Philly Rising Campaign</subject>
+    <textOnly>Welcome To Philly311
+
+Philly 311 will help you to connect:
+
+Connect You – Provide directory assistance to connect you directly to City employees and City Departments
+Answer Your Questions – We have the critical answers you need about important City services through our information services system.
+Deliver You Faster Services – Customer Service Specialists are trained to assist you in obtaining City services. They will transfer your service request to the relevant department and track your request until the problem is solved.
+Update You on Special Events - 311 is the number to call if you need information about special events hosted
+by the City of Philadelphia.
+
+Register for Philly Rising community at:
+
+
+
+http://philadelphia.force.com/campaign</textOnly>
+    <type>html</type>
+</EmailTemplate>

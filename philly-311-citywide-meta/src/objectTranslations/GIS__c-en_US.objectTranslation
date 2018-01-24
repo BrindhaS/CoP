@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GIS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GIS</value>
+    </caseValues>
+    <fields>
+        <label><!-- BaseMaps --></label>
+        <name>BaseMaps__c</name>
+    </fields>
+    <fields>
+        <label><!-- ESRIServices --></label>
+        <name>ESRIServices__c</name>
+    </fields>
+    <fields>
+        <label><!-- GISRestEndpoint --></label>
+        <name>GISRestEndpoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- GeometryServer --></label>
+        <name>GeometryServer__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

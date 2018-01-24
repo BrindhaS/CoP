@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+        <relationshipLabel><!-- Demos --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- User input sourced --></help>
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+        <picklistValues>
+            <masterLabel>New, Open, In-Progress, Closed</masterLabel>
+            <translation><!-- New, Open, In-Progress, Closed --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Demo Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Change Status --></label>
+        <name>Status</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Enter Customer name --></errorMessage>
+        <name>Demo_CustomerName</name>
+    </validationRules>
+</CustomObjectTranslation>

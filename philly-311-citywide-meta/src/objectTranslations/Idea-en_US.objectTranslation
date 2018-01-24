@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Share Ideas</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Share Ideas</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Internal Ideas: Idea Record Type --></label>
+        <name>InternalIdeasIdeaRecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Neighborhood Liaison: Idea Record Type --></label>
+        <name>Record_type_for_community_09aG0000000YUXGIA4_entity_Idea</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Partner Internal Community: Idea Record Type --></label>
+        <name>Record_type_for_community_09aG0000000YUXLIA4_entity_Idea</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

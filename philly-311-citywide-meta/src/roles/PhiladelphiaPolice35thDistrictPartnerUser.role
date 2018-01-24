@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>Philadelphia Police 35th District Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Philadelphia Police 35th District Partner User</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>SFDC_Administrators</parentRole>
+</Role>

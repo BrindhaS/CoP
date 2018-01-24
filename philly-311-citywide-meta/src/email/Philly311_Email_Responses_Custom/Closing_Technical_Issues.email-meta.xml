@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal Use Only: Closing Paragraph - Technical issues (general customer notification)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_Philly311_Logo</letterhead>
+    <name>Closing: Technical Issues</name>
+    <style>freeForm</style>
+    <subject>INTERNAL USE ONLY: SMOKE DETECTOR CAMPAIGN</subject>
+    <textOnly>Regards,
+
+
+
+Philly311
+
+Customer Support
+
+
+
+SMOKE DETECTORS SAVE LIVES! Have them? Please test and replace batteries if needed.  Need them? Contact 311 to learn about getting a free one installed.</textOnly>
+    <type>html</type>
+</EmailTemplate>

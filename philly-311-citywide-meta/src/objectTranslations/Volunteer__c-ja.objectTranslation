@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Volunteer</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activity Status --></label>
+        <name>ActivityStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation><!-- Working --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Article --></label>
+        <name>Article__c</name>
+    </fields>
+    <fields>
+        <label><!-- CancelReason --></label>
+        <name>CancelReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date W --></label>
+        <name>EndDate_w__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsPublic --></label>
+        <name>IsPublic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet Place --></label>
+        <name>MeetPlace__c</name>
+    </fields>
+    <fields>
+        <help><!-- HH:MM --></help>
+        <label><!-- Meet Time --></label>
+        <name>MeetTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Checkin --></label>
+        <name>NumberOfCheckin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Participant --></label>
+        <name>NumberOfParticipant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Positions --></label>
+        <name>NumberOfPositions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Volunteer --></label>
+        <name>ParentVolunteer__c</name>
+        <relationshipLabel><!-- Volunteer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>Request__c</name>
+        <relationshipLabel><!-- Volunteer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Requester --></label>
+        <name>Requester__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Data W --></label>
+        <name>StartDate_w__c</name>
+    </fields>
+    <fields>
+        <help><!-- HH:MM --></help>
+        <label><!-- Start Time --></label>
+        <name>StartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan</masterLabel>
+            <translation><!-- Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progress</masterLabel>
+            <translation><!-- Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latitude --></label>
+        <name>lat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Longitude --></label>
+        <name>lng__c</name>
+    </fields>
+    <layouts>
+        <layout>VolunteerLayout</layout>
+        <sections>
+            <label><!-- Additional Info --></label>
+            <section>Additional Info</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Recruitment --></label>
+            <section>Recruitment</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule --></label>
+            <section>Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Start Location --></label>
+            <section>Start Location</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Activity Log --></label>
+        <name>Activity_Log</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- End --></label>
+        <name>End</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Start --></label>
+        <name>Start</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Please fill out the reason for the volunteer cancelation. --></errorMessage>
+        <name>CancelReasonCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please collect the end date based on the start date inputed by you. --></errorMessage>
+        <name>EndDateCheck</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ActivityMap --></label>
+        <name>ActivityMap</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+*** STATUS CHANGE NOTIFICATION *** 
+
+The following Case Status has been Changed and is assigned to you. Please process accordingly. 
+
+Company: {!Account.Name} 
+Status: {!Case.Status} 
+Contact Name: {!Contact.Name} 
+Case #: {!Case.CaseNumber} 
+Subject: {!Case.Subject} 
+Description: {!Case.Description} 
+
+Click on the respective link to access the case:
+Internal Users: {!Case.Link} 
+Partner Users: https://philly.force.com/internal/{!Case.Id}
+
+
+Thank you, 
+
+Philly311 
+Customer Support

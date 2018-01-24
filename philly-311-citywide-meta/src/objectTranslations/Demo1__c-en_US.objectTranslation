@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demo1s</value>
+    </caseValues>
+    <fields>
+        <help><!-- Relating Demo with Account --></help>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+        <relationshipLabel><!-- Demo1s --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Demo Number --></label>
+        <name>Demo_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Modify_Case --></label>
+        <name>Modify_Case</name>
+    </webLinks>
+</CustomObjectTranslation>

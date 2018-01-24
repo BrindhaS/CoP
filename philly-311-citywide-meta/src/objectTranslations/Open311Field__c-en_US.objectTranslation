@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Open311Field</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Open311Field</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Record Type --></label>
+        <name>Case_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Fields 1 --></label>
+        <name>Custom_Fields_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Fields 2 --></label>
+        <name>Custom_Fields_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Fields 3 --></label>
+        <name>Custom_Fields_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Code Name 1 --></label>
+        <name>Encrypted_Code_Name_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Code Name 2 --></label>
+        <name>Encrypted_Code_Name_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encrypted Code Name 3 --></label>
+        <name>Encrypted_Code_Name_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Required Fields --></label>
+        <name>Not_Required_Fields__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

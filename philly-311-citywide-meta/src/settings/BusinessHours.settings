@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessHoursSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessHours>
+        <active>true</active>
+        <default>true</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Default</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>America/New_York</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <holidays>
+        <description>Christmas Day</description>
+        <isRecurring>true</isRecurring>
+        <name>Christmas Day</name>
+        <recurrenceDayOfMonth>25</recurrenceDayOfMonth>
+        <recurrenceMonthOfYear>December</recurrenceMonthOfYear>
+        <recurrenceStartDate>2014-12-25</recurrenceStartDate>
+        <recurrenceType>RecursYearly</recurrenceType>
+    </holidays>
+    <holidays>
+        <activityDate>2014-10-13</activityDate>
+        <description>Columbus Day</description>
+        <isRecurring>false</isRecurring>
+        <name>Columbus Day</name>
+    </holidays>
+    <holidays>
+        <description>Good Friday</description>
+        <isRecurring>true</isRecurring>
+        <name>Good Friday</name>
+        <recurrenceDayOfWeek>Friday</recurrenceDayOfWeek>
+        <recurrenceInstance>Third</recurrenceInstance>
+        <recurrenceMonthOfYear>April</recurrenceMonthOfYear>
+        <recurrenceStartDate>2014-04-18</recurrenceStartDate>
+        <recurrenceType>RecursYearlyNth</recurrenceType>
+    </holidays>
+    <holidays>
+        <activityDate>2014-07-04</activityDate>
+        <description>Independence Day</description>
+        <isRecurring>false</isRecurring>
+        <name>Independence Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2014-09-01</activityDate>
+        <description>Labor&apos;s Day</description>
+        <isRecurring>false</isRecurring>
+        <name>Labor&apos;s Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2014-01-20</activityDate>
+        <description>Martin Luther King Day</description>
+        <isRecurring>false</isRecurring>
+        <name>Martin Luther King Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2014-05-26</activityDate>
+        <description>Memorial Day</description>
+        <isRecurring>false</isRecurring>
+        <name>Memorial Day</name>
+    </holidays>
+    <holidays>
+        <description>New Year&apos;s Day</description>
+        <isRecurring>true</isRecurring>
+        <name>New Year&apos;s Day</name>
+        <recurrenceDayOfMonth>1</recurrenceDayOfMonth>
+        <recurrenceMonthOfYear>January</recurrenceMonthOfYear>
+        <recurrenceStartDate>2014-01-01</recurrenceStartDate>
+        <recurrenceType>RecursYearly</recurrenceType>
+    </holidays>
+    <holidays>
+        <activityDate>2014-02-17</activityDate>
+        <description>President&apos;s Day</description>
+        <isRecurring>false</isRecurring>
+        <name>President&apos;s Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2014-11-27</activityDate>
+        <description>Thanksgiving Day</description>
+        <isRecurring>false</isRecurring>
+        <name>Thanksgiving Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2014-11-11</activityDate>
+        <description>Veterans Day</description>
+        <isRecurring>false</isRecurring>
+        <name>Veterans Day</name>
+    </holidays>
+</BusinessHoursSettings>

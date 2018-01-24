@@ -1,0 +1,9 @@
+<apex:page standardController="Case" showHeader="false" sidebar="false">  
+<apex:includeScript value="{!URLFOR($Resource.XedeDefaultAssets, 'js/jquery-1.10.2.min.js')}"/>
+
+<apex:includeScript value="/support/console/26.0/integration.js"/> 
+  <apex:includeScript value="{!URLFOR($Resource.XedeDefaultAssets, 'js/jquery-1.10.2.min.js')}"/>
+  <script language="javascript">    
+   window.parent.document.getElementByName('del').hide();  
+  </script>
+</apex:page>

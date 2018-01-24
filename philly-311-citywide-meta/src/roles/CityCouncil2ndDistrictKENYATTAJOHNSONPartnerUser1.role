@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>City Council 2nd District KENYATTA JOHNSON Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>City Council 2nd District KENYATTA JOHNSON Partner User</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>SFDC_Administrators</parentRole>
+</Role>

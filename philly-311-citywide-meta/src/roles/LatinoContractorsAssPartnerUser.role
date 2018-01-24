@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>Latino Contractors Ass. Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Latino Contractors Ass. Partner User</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>SFDC_Administrators</parentRole>
+</Role>

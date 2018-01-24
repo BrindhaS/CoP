@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FAQ1__ka$ArticleNumber</field>
+    </columns>
+    <columns>
+        <field>FAQ1__ka.FAQ1__kav$Title</field>
+    </columns>
+    <columns>
+        <field>FAQ1__ka.FAQ1__kav$Summary</field>
+    </columns>
+    <columns>
+        <field>FAQ1__ka.FAQ1__kav$Public_Info__c</field>
+    </columns>
+    <description>To display articles with their departments as stated in FAQ</description>
+    <filter>
+        <criteriaItems>
+            <column>FAQ1__ka.FAQ1__kav$Department__c</column>
+            <operator>equals</operator>
+            <value>License &amp; Inspections</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FAQ1__ka.FAQ1__kav$Department__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Articles With Their Department</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Articles_With_Their_Department__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>FAQ1__ka.FAQ1__kav$Created_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

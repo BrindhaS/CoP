@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>API Key Register</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>API Key Registers</value>
+    </caseValues>
+    <fields>
+        <label><!-- App Name --></label>
+        <name>App_Name_Open311__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email_Open311__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name_Open311__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key --></label>
+        <name>Key_Open311__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name_Open311__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization --></label>
+        <name>Organization_Open311__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone_Open311__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product URL --></label>
+        <name>url_Open311__c</name>
+    </fields>
+    <layouts>
+        <layout>PostObj Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

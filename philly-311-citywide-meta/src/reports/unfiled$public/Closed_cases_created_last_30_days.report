@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$Id</field>
+    </columns>
+    <columns>
+        <field>Case$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Case_Record_Type__c</field>
+    </columns>
+    <columns>
+        <field>Case$Centerline__Latitude__s</field>
+    </columns>
+    <columns>
+        <field>Case$Centerline__Longitude__s</field>
+    </columns>
+    <columns>
+        <field>Case$Street__c</field>
+    </columns>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <columns>
+        <field>Case$IsClosed</field>
+    </columns>
+    <description>Closed cases created in the last 30 days.</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$CreatedDate</column>
+            <operator>greaterThan</operator>
+            <value>8/1/2014 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$IsClosed</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Closed cases created last 30 days</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Geodata__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Case$CreatedDate</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST30</interval>
+    </timeFrameFilter>
+</Report>

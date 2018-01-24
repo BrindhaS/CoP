@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$Id</field>
+    </columns>
+    <columns>
+        <field>Case$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Case_Record_Type__c</field>
+    </columns>
+    <columns>
+        <field>Case$Centerline__Latitude__s</field>
+    </columns>
+    <columns>
+        <field>Case$Centerline__Longitude__s</field>
+    </columns>
+    <columns>
+        <field>Case$Street__c</field>
+    </columns>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <columns>
+        <field>Case$IsClosed</field>
+    </columns>
+    <description>Where open date &gt; 8/1/2014</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$CreatedDate</column>
+            <operator>greaterThan</operator>
+            <value>8/1/2014 12:00 AM</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>SinceAugust1</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Geodata__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Case$CreatedDate</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Case$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2014-08-01</startDate>
+    </timeFrameFilter>
+</Report>

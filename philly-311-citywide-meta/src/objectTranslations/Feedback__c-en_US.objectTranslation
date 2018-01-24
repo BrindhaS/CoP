@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feedback</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feedback</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned to User --></label>
+        <name>AssignedToMe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Feedback --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>Close_Status__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid</masterLabel>
+            <translation><!-- Invalid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postponed</masterLabel>
+            <translation><!-- Postponed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won&apos;t Fix</masterLabel>
+            <translation><!-- Won&apos;t Fix --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the ticket/issue number matching this feedback from your HelpDesk application. --></help>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host --></label>
+        <name>Host__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long url --></label>
+        <name>Long_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Days --></label>
+        <name>Open_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Time --></label>
+        <name>Open_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization ID --></label>
+        <name>Organization_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization Name --></label>
+        <name>Organization_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>1 - Immediate</masterLabel>
+            <translation><!-- 1 - Immediate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - High</masterLabel>
+            <translation><!-- 2 - High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Normal</masterLabel>
+            <translation><!-- 3 - Normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Low</masterLabel>
+            <translation><!-- 4 - Low --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the product or category this issue relates to. --></help>
+        <label><!-- Product/Category --></label>
+        <name>Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrer --></label>
+        <name>Referer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resolution --></label>
+        <name>Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>Severity__c</name>
+        <picklistValues>
+            <masterLabel>1 - Critical</masterLabel>
+            <translation><!-- 1 - Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Functionally impaired</masterLabel>
+            <translation><!-- 2 - Functionally impaired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Workaround exists</masterLabel>
+            <translation><!-- 3 - Workaround exists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Missing functionality</masterLabel>
+            <translation><!-- 4 - Missing functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Cosmetic</masterLabel>
+            <translation><!-- 5 - Cosmetic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reopened</masterLabel>
+            <translation><!-- Reopened --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Bug Report</masterLabel>
+            <translation><!-- Bug Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chore</masterLabel>
+            <translation><!-- Chore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comment</masterLabel>
+            <translation><!-- Comment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Request</masterLabel>
+            <translation><!-- Feature Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Question</masterLabel>
+            <translation><!-- Question --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll-up (Placeholder)</masterLabel>
+            <translation><!-- Roll-up (Placeholder) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Agent --></label>
+        <name>User_Agent__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Email --></label>
+        <name>User_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- url --></label>
+        <name>url__c</name>
+    </fields>
+    <layouts>
+        <layout>Feedback Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Organizational Data --></label>
+            <section>Organizational Data</section>
+        </sections>
+        <sections>
+            <label><!-- Support --></label>
+            <section>Support</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A disposition is required to set a close date. --></errorMessage>
+        <name>Require_Disposition</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Email --></label>
+        <name>Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Feedback --></label>
+        <name>Feedback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Related --></label>
+        <name>New_Related</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Tabbed_Layout --></label>
+        <name>Tabbed_Layout</name>
+    </webLinks>
+</CustomObjectTranslation>

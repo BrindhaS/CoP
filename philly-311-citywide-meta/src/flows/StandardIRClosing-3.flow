@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choices>
+        <name>No</name>
+        <choiceText>No</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>No</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Yes</name>
+        <choiceText>Yes</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Yes</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Need_Additional_Assistance_Decision</name>
+        <label>Need Additional Assistance Decision</label>
+        <locationX>163</locationX>
+        <locationY>229</locationY>
+        <defaultConnectorLabel>Default outcome</defaultConnectorLabel>
+        <rules>
+            <name>Additional_Assistance_Needed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Additional_Assistance</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Yes</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Additional_Assistance_Required</targetReference>
+            </connector>
+            <label>Additional  Assistance Needed</label>
+        </rules>
+        <rules>
+            <name>No_Additional_Assistance_Needed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Additional_Assistance</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Call_Termination</targetReference>
+            </connector>
+            <label>No Additional Assistance Needed</label>
+        </rules>
+    </decisions>
+    <label>Standard IR Closing</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Additional_Assistance_Required</name>
+        <label>Additional Assistance Required</label>
+        <locationX>20</locationX>
+        <locationY>451</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>MoreHelpNeeded</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:16px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;B&gt;&lt;I&gt;How else may I help you today?&lt;/I&gt;&lt;/B&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:12px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:14px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;For each additional information or service request, select the &amp;quot;New Case&amp;quot; button from the &amp;quot;Cases&amp;quot; tab, select the appropriate Record Type, and follow the script to create that type of case.&lt;FONT STYLE=&quot;font-size:12px&quot;&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;TEXTFORMAT LEADING=&quot;2&quot;&gt;&lt;LI&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:14px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;To easily retrieve the Contact associated with the caller&amp;apos;s previous case, select the Contact Name Lookup icon.  The first record displayed will be the last Contact you used.&lt;FONT STYLE=&quot;font-size:12px&quot;&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/LI&gt;&lt;/TEXTFORMAT&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+    </screens>
+    <screens>
+        <name>Anything_Else</name>
+        <label>Anything Else</label>
+        <locationX>159</locationX>
+        <locationY>108</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Need_Additional_Assistance_Decision</targetReference>
+        </connector>
+        <fields>
+            <name>NeedMoreHelp</name>
+            <fieldText>Is there anything else I can assist you with today?</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Additional_Assistance</name>
+            <choiceReferences>Yes</choiceReferences>
+            <choiceReferences>No</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Additional Assistance</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+    </screens>
+    <screens>
+        <name>Call_Termination</name>
+        <label>Call Termination</label>
+        <locationX>435</locationX>
+        <locationY>452</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>false</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>TerminateCall</name>
+            <fieldText>&lt;SPAN ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:16px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;Ask the caller:&lt;FONT STYLE=&quot;font-size:12px&quot;&gt;  “&lt;FONT STYLE=&quot;font-size:16px&quot;&gt;&lt;B&gt;&lt;I&gt;Do you have time for a brief survey to help us improve our customer service?&lt;/I&gt;&lt;/B&gt;&lt;/FONT&gt;” &lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:16px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If yes, tell the Caller&lt;FONT STYLE=&quot;font-size:12px&quot;&gt; &amp;quot;T&lt;FONT STYLE=&quot;font-size:16px&quot;&gt;&lt;B&gt;&lt;I&gt;hank you for calling the City of Hampton&amp;apos;s 311 Contact Center.  Please hold for the survey.&amp;quot;&lt;/I&gt;&lt;/B&gt;&lt;/FONT&gt; &lt;/FONT&gt;and tranfer the caller to the survey.&lt;/FONT&gt;&lt;/DIV&gt;&lt;DIV ALIGN=&quot;LEFT&quot;&gt;&lt;FONT FACE=&quot;Arial&quot; STYLE=&quot;font-size:16px&quot; COLOR=&quot;#000000&quot; LETTERSPACING=&quot;0&quot; KERNING=&quot;0&quot;&gt;If no, tell the caller &amp;quot;&lt;B&gt;&lt;I&gt;Thank you for calling the City of Hampton&amp;apos;s 311 Contact Center.&amp;quot;&lt;/I&gt;&lt;/B&gt;&lt;FONT STYLE=&quot;font-size:12px&quot;&gt; and terminate the call.&lt;/FONT&gt;&lt;/FONT&gt;&lt;/DIV&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+    </screens>
+    <startElementReference>Anything_Else</startElementReference>
+</Flow>

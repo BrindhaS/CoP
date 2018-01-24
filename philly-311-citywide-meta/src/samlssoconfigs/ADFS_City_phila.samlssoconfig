@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>http://adfs.phila.gov/adfs/services/trust</issuer>
+    <loginUrl>https://adfs.phila.gov/adfs/ls/</loginUrl>
+    <name>Phila.gov Login</name>
+    <oauthTokenEndpoint>https://philly311--Citywide.cs22.my.salesforce.com/services/oauth2/token?so=00D17000000B6qp</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>0</requestSignatureMethod>
+    <salesforceLoginUrl>https://philly311--Citywide.cs22.my.salesforce.com?so=00D17000000B6qp</salesforceLoginUrl>
+    <samlEntityId>https://philly311.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>true</userProvisioning>
+    <validationCert>MIIC2DCCAcCgAwIBAgIQIL9U3rgIuJRN31bvGKUomTANBgkqhkiG9w0BAQsFADAoMSYwJAYDVQQDEx1BREZTIFNpZ25pbmcgLSBhZGZzLnBoaWxhLmdvdjAeFw0xNTAzMDUyMTI4NTdaFw0xNjAzMDQyMTI4NTdaMCgxJjAkBgNVBAMTHUFERlMgU2lnbmluZyAtIGFkZnMucGhpbGEuZ292MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUKkRms5NAZ0DpK+V1i3iZX3j2t1Whb9zLZRG3DjXe2ww8fzJOJ/JGx18MQ0LYyIlOqEbuTI+WC3LxynaSmqIsR/spY68ghECcf9N2Yty+/jqg/KIM79m722kZliDVSJALHlI2RB5D9yGOMAqwN+eORnbv+f4ez7QG0zxsXQRtP6zfXRwPFIaElO4/tho4zG8CzcZNuaYYDnIWfU3hYfK6pYbh4iDFGE5ru51DolAqAbkqgvF9ZEsphk1dDdQQeRhDJRZVNUSe9FJucgFJ0x3WGMa3Bo4LjErdCGoDNIdMa5wpvldeN3YfSVCVcr6Z22fBgRRHhWPEEkqldsXOqMJQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAQMFhYFaAbXOd99MR+JFFUGbPx2H3ULSZ/Y8ONSvbb/OLN6vDDoBU2WIOfKPRdV1uXIK9ut5ouiaswfleSG62av7HbG+kA/sgTjM1LpOuDpK6QRF/JCmrFwyui3MG1tGMFKY5az9biQcoaRodV7i+8ERsctMlC6KfCDyEP5ob5ftNSAvgfpaGUur6aNjljiSo587WCwH38rqkQF9KbP0RurYoINVENaev67zLtFGmOGnQpDCUT/vxyvFVzJy73S4eaITAMXDOdbdaDLwo3j8mAt/dROyWraGsHhxC2rRHwofHEgrmYlQ25F0d2Vvfgq3aJ3mP3x0O0XWlX7twq5HPZ</validationCert>
+</SamlSsoConfig>

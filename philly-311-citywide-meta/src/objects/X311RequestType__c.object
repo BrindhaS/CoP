@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Listing of Request Types processed by 311. Will have keywords, description of request and a hyperlink field to launch a new case page.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Case_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;javascript:if(typeof(srcUp)==&apos;function&apos;) {srcUp(&apos;/500/e?isdtp%3Dvw&amp;ekp=500&amp;ent=Case&amp;RecordType=&quot;&amp;Case_RecordTypeId__c&amp;&quot;&amp;x311rt=&quot; &amp; Case_RecordType_Name__c &amp; &quot;&amp;cas14=&quot; &amp; SUBSTITUTE(Name, &apos; &apos;, &apos;%20&apos;) &amp; &quot;&apos;); } &quot;+&quot;else {parent.location.href=&apos;/500/e?ekp=500&amp;ent=Case&amp;RecordType=&quot;&amp;Case_RecordTypeId__c&amp;&quot;&amp;x311rt=&quot; &amp; Case_RecordType_Name__c &amp; &quot;&amp;cas14=&quot; &amp; SUBSTITUTE(Name, &apos; &apos;, &apos;%20&apos;) &amp; &quot;&apos;;}&quot;,&quot;Create Case&quot;, &quot;_self&quot;)</formula>
+        <label>Case Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_RecordTypeId__c</fullName>
+        <description>Holds the Salesforce Id of the target case record type. Used in new case link.</description>
+        <externalId>false</externalId>
+        <label>Case RecordTypeId</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_RecordType_Name__c</fullName>
+        <description>Case RecordType Developer Name.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Case RecordType Developer Name.</inlineHelpText>
+        <label>Case RecordType Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <description>Department handling requests.</description>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <picklist>
+            <picklistValues>
+                <fullName>License &amp; Inspections</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Neighborhood Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Police Department</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Streets Department</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>311 Contact Center</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fire Department</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Parks &amp; Recreation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Water Department</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Directory Assistance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Discussion of when this Request Type is appropriate.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a description of when this Request Type is appropriate.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Keywords__c</fullName>
+        <description>Comma separated list of keywords which will bring up this type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter comma separated list of keywords which will bring up this type.</inlineHelpText>
+        <label>Keywords</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Request_Category__c</fullName>
+        <description>Type of case to create.</description>
+        <externalId>false</externalId>
+        <label>Request Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Service Request Type</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Information Request Type</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Directory Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Service_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Name,
+&apos;Street Defect&apos;,&apos;SR-ST01&apos;,
+&apos;Illegal Dumping&apos;,&apos;SR-ST02&apos;,
+&apos;Rubbish/Recyclable Material Collection&apos;,&apos;SR-ST03&apos;,
+&apos;Street Light Outage&apos;,&apos;SR-ST04&apos;,
+&apos;Abandoned Bike&apos;,&apos;SR-ST05&apos;,
+&apos;Alley Light Outage&apos;,&apos;SR-ST06&apos;,
+&apos;Complaint (Streets)&apos;,&apos;SR-ST08&apos;,
+&apos;Dangerous Sidewalk&apos;,&apos;SR-ST09&apos;,
+&apos;Dead Animal in Street&apos;,&apos;SR-ST10&apos;,
+&apos;Line Striping&apos;,&apos;SR-ST13&apos;,
+&apos;Manhole Cover&apos;,&apos;SR-ST14&apos;,
+&apos;Newsstand Outdoor Cafe&apos;,&apos;SR-ST15&apos;,
+&apos;Other (Streets)&apos;,&apos;SR-ST16&apos;,
+&apos;Salting&apos;,&apos;SR-ST18&apos;,
+&apos;Sanitation / Dumpster Violation&apos;,&apos;SR-ST19&apos;,
+&apos;Shoveling&apos;,&apos;SR-ST20&apos;,
+&apos;Stop Sign Repair&apos;,&apos;SR-ST21&apos;,
+&apos;Street Paving&apos;,&apos;SR-ST23&apos;,
+&apos;Traffic (Other)&apos;,&apos;SR-ST24&apos;,
+&apos;Traffic Signal Emergency&apos;,&apos;SR-ST25&apos;,
+&apos;Directory Assistance SR&apos;,&apos;SR-DA01&apos;,
+&apos;Graffiti Removal&apos;,&apos;SR-CL01&apos;,
+&apos;Vacant Lot Clean-Up&apos;,&apos;SR-CL02&apos;,
+&apos;Complaints against Fire or EMS&apos;,&apos;SR-FD01&apos;,
+&apos;Smoke Detector&apos;,&apos;SR-FD02&apos;,
+&apos;Abandoned Vehicle&apos;,&apos;SR-PD01&apos;,
+&apos;Police Complaint&apos;,&apos;SR-PD02&apos;,
+&apos;Parks and Rec Safety and Maintenance&apos;,&apos;SR-PR01&apos;,
+&apos;Street Trees&apos;,&apos;SR-PR08&apos;, 
+&apos;Feedback&apos;,&apos;SR-FB01&apos;,
+&apos;Support Case&apos;,&apos;SR-SP01&apos;,
+&apos;Miscellaneous&apos;,&apos;SR-MI01&apos;,
+&apos;Information Request&apos;,&apos;SR-IR01&apos;,
+&apos;Inlet Cleaning&apos;,&apos;SR-WD01&apos;,
+&apos;Hydrant Request&apos;,&apos;SR-WD02&apos;,
+&apos;Boarding Room House&apos;,&apos;SR-LI01&apos;,
+&apos;Building Construction&apos;,&apos;SR-LI02&apos;,
+&apos;Building Dangerous&apos;,&apos;SR-LI03&apos;,
+&apos;Construction Site Task Force&apos;,&apos;SR-LI06&apos;,
+&apos;Daycare Residential or Commercial&apos;,&apos;SR-LI08&apos;,
+&apos;Emergency Air Conditioning&apos;,&apos;SR-LI13&apos;,
+&apos;Fire Residential or Commercial&apos;,&apos;SR-LI16&apos;,
+&apos;Infestation Residential&apos;,&apos;SR-LI17&apos;,
+&apos;License Residential&apos;,&apos;SR-LI19&apos;,
+&apos;Maintenance Residential or Commercial&apos;,&apos;SR-LI21&apos;,
+&apos;No Heat (Residential)&apos;,&apos;SR-LI22&apos;,
+&apos;Other Dangerous&apos;,&apos;SR-LI23&apos;,
+&apos;Tree Dangerous&apos;,&apos;SR-LI25&apos;,
+&apos;Vacant House or Commercial&apos;,&apos;SR-LI27&apos;,
+&apos;Zoning Business&apos;,&apos;SR-LI28&apos;,
+&apos;Zoning Residential&apos;,&apos;SR-LI30&apos;,
+&apos;&apos;)</formula>
+        <label>Service Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>metadata__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>metadata</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>requiresGeocode__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>If the case type requires a geocode, mark true.  If an address can&apos;t be geocoded it will be added to the reject queue.</description>
+        <externalId>false</externalId>
+        <label>requiresGeocode</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>311 Request Type</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>Keywords__c</columns>
+        <columns>Case_Link__c</columns>
+        <columns>Case_RecordType_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Requires_Geocoding</fullName>
+        <columns>NAME</columns>
+        <columns>Case_RecordType_Name__c</columns>
+        <columns>Department__c</columns>
+        <columns>requiresGeocode__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Requires Geocoding</label>
+    </listViews>
+    <listViews>
+        <fullName>View_All</fullName>
+        <columns>NAME</columns>
+        <columns>Case_RecordType_Name__c</columns>
+        <columns>Department__c</columns>
+        <columns>requiresGeocode__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>View All</label>
+    </listViews>
+    <nameField>
+        <label>Request Type Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>311 Request Types</pluralLabel>
+    <searchLayouts>
+        <searchFilterFields>Keywords__c</searchFilterFields>
+        <searchResultsAdditionalFields>Case_Link__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

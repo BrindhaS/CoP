@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Bandit sign handling or removal</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Email_Philly311_Logo</letterhead>
+    <name>Bandit Signs</name>
+    <style>freeForm</style>
+    <subject>Philly 311 Reply to Your Inquiry Regarding Handling or Removal of Bandit Signs</subject>
+    <textOnly>Dear Customer,
+
+Thank you for contacting the City of Philadelphia&apos;s 311 Contact Center about the handling or removal of Bandit Signs.  Bandit Signs are signs, flyers, or similar postings placed on street poles, medians, etc.  These signs are illegal in the City of Philadelphia.  Community members may remove Bandit Signs; service requests are no longer being accepted.
+
+For your convenience you may access our website at http://www.phila.gov/311/findananswer/Pages/default.aspx 24 hours a day, where you can find answers to many questions related to City government services in the &quot;Find an Answer&quot; section.  Please let us know if we can be of further assistance.
+
+
+Regards,
+
+
+Philly311
+Customer Support</textOnly>
+    <type>html</type>
+</EmailTemplate>

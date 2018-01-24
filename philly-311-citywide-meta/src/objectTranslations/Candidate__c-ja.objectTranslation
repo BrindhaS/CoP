@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birth Of Date --></label>
+        <name>BirthOfDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blood Type --></label>
+        <name>BloodType__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AB</masterLabel>
+            <translation><!-- AB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O</masterLabel>
+            <translation><!-- O --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Building --></label>
+        <name>Building__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate Name --></label>
+        <name>CandidateName__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmation Code --></label>
+        <name>ConfirmationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emargency Contact Address --></label>
+        <name>EmargencyContactAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emargency Contact Name --></label>
+        <name>EmargencyContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emargency Contact Phone --></label>
+        <name>EmargencyContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emargency Contact Relation --></label>
+        <name>EmargencyContactRelation__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parents</masterLabel>
+            <translation><!-- Parents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relative</masterLabel>
+            <translation><!-- Relative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Emargency Contact Type --></label>
+        <name>EmargencyContactType__c</name>
+        <picklistValues>
+            <masterLabel>Dormitory</masterLabel>
+            <translation><!-- Dormitory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relative</masterLabel>
+            <translation><!-- Relative --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- FAX --></label>
+        <name>Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Phone --></label>
+        <name>MobilePhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Num Of Participant --></label>
+        <name>NumberOfParticipant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Emargency Contact Type --></label>
+        <name>OtherEmargencyContactType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code --></label>
+        <name>PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- isConfirmCodeSentFlg --></label>
+        <name>isConfirmCodeSentFlg__c</name>
+    </fields>
+    <layouts>
+        <layout>CandidateLayout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Emergency Contact --></label>
+            <section>Emergency Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Phone / Email --></label>
+            <section>Phone / Email</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

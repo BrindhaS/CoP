@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>FeedbackTabbed</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AssignedToMe__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Assigned_To__c  = $User.Id , 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assigned to User</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Feedback</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Close_Status__c</fullName>
+        <description>Fixed – Problem fixed.  Code is unit tested and checked in the code repository.
+Won’t Fix – The problem is a bug but won’t be fixed.
+Postponed – Problem will be fixed in another release.  Development should provide in the notes the target release that the problem will be fixed.
+Invalid – The problem described in the feedback item is not a bug, is not reproducible or is a feature that does not make sense.
+Duplicate – The feedback item is a duplicate of another feedback item. The duplicate feedback name should be provided as a new note such as &quot;DUP FB-00352&quot;.
+By Design – The behavior is as designed.</description>
+        <externalId>false</externalId>
+        <label>Disposition</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Invalid</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Postponed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Won&apos;t Fix</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Closed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>16384</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>External_ID__c</fullName>
+        <description>A reference number to an external bug/ticket/issue-tracking system.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Enter the ticket/issue number matching this feedback from your HelpDesk application.</inlineHelpText>
+        <label>External ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Host__c</fullName>
+        <description>Refering Host</description>
+        <externalId>false</externalId>
+        <label>Host</label>
+        <length>128</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Long_url__c</fullName>
+        <description>The URL of the page from which Feedback originated (more than 255)</description>
+        <externalId>false</externalId>
+        <label>Long url</label>
+        <length>1500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Open_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>nullvalue(Closed_Date__c, now()) -  Open_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Open Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Open_Time__c</fullName>
+        <description>Storing open time independent of SF&apos;s created time is necessary so feedback items may be exported and imported without losing that valuable information.</description>
+        <externalId>false</externalId>
+        <label>Open Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Organization_ID__c</fullName>
+        <description>The Salesforce Organization ID that uniquely identifies every SF organization instance.</description>
+        <externalId>false</externalId>
+        <label>Organization ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Organization_Name__c</fullName>
+        <description>If available, the organization name.</description>
+        <externalId>false</externalId>
+        <label>Organization Name</label>
+        <length>120</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <description>Immediate items should be assigned and actively worked on, preempting all others as resources require.</description>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1 - Immediate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 - Normal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4 - Low</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Product_Category__c</fullName>
+        <description>Use the Product/Area field to categorize issues.  If your organization supports multiple products, or if a product as different kinds of uses, identify them here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the product or category this issue relates to.</inlineHelpText>
+        <label>Product/Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Referer__c</fullName>
+        <externalId>false</externalId>
+        <label>Referrer</label>
+        <length>4000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Resolution__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution</label>
+        <length>8192</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Severity__c</fullName>
+        <externalId>false</externalId>
+        <label>Severity</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1 - Critical</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Functionally impaired</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 - Workaround exists</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4 - Missing functionality</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 - Cosmetic</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>New - All feedback items are set to new when they are created.
+Assigned - When owner is changed from AquariusSupport the status is changed to assigned.
+Working - The feedback item is being worked on.
+Resolved - The feedback item has been resolved and it ready for testing.
+Reopened - The item did not pass testing and is being assigned back to a developer.
+Closed - The item passed testing and is ready to be deployed to production.</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>New</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Assigned</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reopened</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Summary__c</fullName>
+        <externalId>false</externalId>
+        <label>Summary</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Comment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bug Report</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll-up (Placeholder)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>User_Agent__c</fullName>
+        <externalId>false</externalId>
+        <label>User Agent</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>User Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>User Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>url__c</fullName>
+        <description>The URL of the page from which Feedback originated.</description>
+        <externalId>false</externalId>
+        <label>url</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Feedback</label>
+    <listViews>
+        <fullName>Assigned_To_Me</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Summary__c</columns>
+        <columns>Open_Days__c</columns>
+        <columns>Product_Category__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Closed_Date__c</field>
+            <operation>equals</operation>
+        </filters>
+        <filters>
+            <field>AssignedToMe__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Assigned To Me</label>
+    </listViews>
+    <listViews>
+        <fullName>Open</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Summary__c</columns>
+        <columns>Open_Days__c</columns>
+        <columns>Product_Category__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Closed_Date__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Unassigned</fullName>
+        <columns>NAME</columns>
+        <columns>Type__c</columns>
+        <columns>Summary__c</columns>
+        <columns>Open_Days__c</columns>
+        <columns>Product_Category__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Closed_Date__c</field>
+            <operation>equals</operation>
+        </filters>
+        <filters>
+            <field>Assigned_To__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Unassigned</label>
+    </listViews>
+    <nameField>
+        <displayFormat>FB-{00000}</displayFormat>
+        <label>Feedback ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Feedback</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Summary__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Open_Days__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_Category__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Summary__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LAST_UPDATE</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Summary__c</searchFilterFields>
+        <searchResultsAdditionalFields>Summary__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Require_Disposition</fullName>
+        <active>true</active>
+        <errorConditionFormula>!isblank(Closed_Date__c) &amp;&amp; isblank( text(Close_Status__c ))</errorConditionFormula>
+        <errorMessage>A disposition is required to set a close date.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Email</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Email</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>javascript:location.href=&apos;mailto:?subject={!Feedback__c.Name}&amp;cc=feedback@xede.com&apos;;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Feedback</fullName>
+        <availability>online</availability>
+        <description>Have some feedback about Feedback?</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Feedback</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&apos;/soap/ajax/11.0/connection.js&apos;)};
+{!REQUIRESCRIPT(&apos;/resource/&apos; &amp; LEFT(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(TEXT(NOW()),&apos;:&apos;,&apos;&apos;),&apos;-&apos;,&apos;&apos;),&apos; &apos;,&apos;&apos;),10) &amp; &apos;000/feedback/js/feedbackPopup.js&apos;)}
+
+feedbackPopup(&quot;{!API.Session_ID}&quot;, &quot;Default2&quot;);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_Related</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New Related</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var currentPage = encodeURIComponent(window.location.href); 
+var targetUrl = &quot;/apex/feedback?related={!Feedback__c.Id}&amp;PageURL=&quot; + currentPage; 
+window.open(targetUrl, &apos;_blank&apos;, &apos;width=650, height=600, left=250&apos;);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Tabbed_Layout</fullName>
+        <availability>online</availability>
+        <description>View the ticket using a tabbed layout.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Tabbed Layout</masterLabel>
+        <openType>sidebar</openType>
+        <page>FeedbackTabbed</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Art in City Hall</label>
+                <name>Art_in_City_Hall</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Arts &amp; Culture</label>
+                <name>Arts_Culture</name>
+            </dataCategory>
+            <dataCategory>
+                <label>City Hall Presents</label>
+                <name>City_Hall_Presents</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mural Arts</label>
+                <name>Mural_Arts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Philadelphia Cultural Fund</label>
+                <name>Philadelphia_Cultural_Fund</name>
+            </dataCategory>
+            <label>Arts, Culture &amp; Creative Economy</label>
+            <name>Arts_Culture_Creative_Economy</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Addiction Services</label>
+                <name>Addiction_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mental Health</label>
+                <name>Mental_Health</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Suicide Hotline</label>
+                <name>Suicide_Hotline</name>
+            </dataCategory>
+            <label>Behavioral and Mental Health</label>
+            <name>Behavioral_and_Mental_Health</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Board of Revision of Taxes (Appeals)</label>
+            <name>Board_of_Revision_of_Taxes</name>
+        </dataCategory>
+        <dataCategory>
+            <label>City Commissioners Office</label>
+            <name>City_Commissioners_Office</name>
+        </dataCategory>
+        <dataCategory>
+            <label>City Controller</label>
+            <name>City_Controller</name>
+        </dataCategory>
+        <dataCategory>
+            <label>City Council</label>
+            <name>City_Council</name>
+        </dataCategory>
+        <dataCategory>
+            <label>City Planning Commission</label>
+            <name>City_Planning_Commission</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Film Office</label>
+                <name>Film_Office</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Special Events</label>
+                <name>Special_Events</name>
+            </dataCategory>
+            <label>City Representative</label>
+            <name>City_Representative</name>
+        </dataCategory>
+        <dataCategory>
+            <label>City Treasurer</label>
+            <name>City_Treasurer</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Business Services</label>
+                <name>Business_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Economic Opportunity</label>
+                <name>Economic_Opportunity</name>
+            </dataCategory>
+            <label>Commerce Department</label>
+            <name>Commerce_Department</name>
+        </dataCategory>
+        <dataCategory>
+            <label>CPO - City Owned Property Info</label>
+            <name>Capital_Programs_Office</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Child Protection</label>
+                <name>Child_Protection</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Foster Care and Adoption</label>
+                <name>Foster_Care_and_Adoption</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Juvilnile Delinquincy</label>
+                <name>Juvilnile_Delinquincy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Prevention</label>
+                <name>Prevention</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Truancy</label>
+                <name>Truancy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Youth Study Center</label>
+                <name>Youth_Study_Center</name>
+            </dataCategory>
+            <label>Department of Human Services</label>
+            <name>Department_of_Human_Services</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Deeds</label>
+                <name>Deeds</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire Reports</label>
+                <name>Fire_Reports</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Leins</label>
+                <name>Leins</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Police Reports</label>
+                <name>Police_Reports</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Traffic Reports</label>
+                <name>Traffic_Reports</name>
+            </dataCategory>
+            <label>Department of Records</label>
+            <name>Department_of_Records</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Criminal Complaint</label>
+                <name>Criminal_Complaint</name>
+            </dataCategory>
+            <dataCategory>
+                <label>District Attorney</label>
+                <name>District_Attorney</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Forfeiture Unit</label>
+                <name>Forfeiture_Unit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Public Nuisance Task Force</label>
+                <name>Public_Nuisance_Task_Force</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Restraining Order</label>
+                <name>Restraining_Order</name>
+            </dataCategory>
+            <label>District Attorney&apos;s Office</label>
+            <name>District_Attorney_s_Office</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Chief Integrity Officer</label>
+                <name>Chief_Integrity_Officer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ethics Inquiries</label>
+                <name>Ethics_Inquiries</name>
+            </dataCategory>
+            <label>Ethics Board</label>
+            <name>Ethics_Board</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Fair Housing Commission</label>
+            <name>Fair_Housing_Commission</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>EMS</label>
+                <name>EMS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire House Info</label>
+                <name>Fire_House_Info</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire Marshall</label>
+                <name>Fire_Marshall</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire Prevention</label>
+                <name>Fire_Prevention</name>
+            </dataCategory>
+            <dataCategory>
+                <label>911</label>
+                <name>X911</name>
+            </dataCategory>
+            <label>Fire Department</label>
+            <name>Fire_Department</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Fleet Management</label>
+            <name>Fleet_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>GED</label>
+                <name>GED</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Location Info</label>
+                <name>Location_Info_Library_Rec_Park</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Programs</label>
+                <name>Programs_Library</name>
+            </dataCategory>
+            <label>Free Library</label>
+            <name>Free_Library</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Historical Commission</label>
+            <name>Historical_Commission</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Affordable Housing</label>
+                <name>Affordable_Housing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Home Ownership</label>
+                <name>Home_Ownership</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mortgage Foreclosure</label>
+                <name>Mortgage_Foreclosure</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Neighborhood Initiatives</label>
+                <name>Neighborhood_Initiatives</name>
+            </dataCategory>
+            <label>Housing and Community Development</label>
+            <name>Housing_and_Community_Development</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Human Relations Commission</label>
+            <name>Human_Relations_Commission</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>City Solicitor</label>
+                <name>City_Solicitor</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Tax Unit</label>
+                <name>Tax_Unit</name>
+            </dataCategory>
+            <label>Law Department / City Solicitor</label>
+            <name>Law_Department_City_Solicitor</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Eclipse</label>
+                <name>Eclipse</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Permit Information</label>
+                <name>Permit_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Property Maintenance</label>
+                <name>Property_Maintenance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Private Property information</label>
+                <name>Private_Property_information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Licence Information</label>
+                <name>Licence_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Zoning information</label>
+                <name>Zoning_information</name>
+            </dataCategory>
+            <label>Licenses &amp; Inspections</label>
+            <name>Licenses_Inspections</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Conserving Energy</label>
+                <name>Conserving_Energy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Disability Assistance / Info</label>
+                <name>Disability_Assistance_Info</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mayoral Agency</label>
+                <name>Mayoral_Agency</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Opinion</label>
+                <name>Opinion</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Policies Questions</label>
+                <name>Policies_Questions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Press Office</label>
+                <name>Press_Office</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Scheduling</label>
+                <name>Scheduling</name>
+            </dataCategory>
+            <label>Mayor&apos;s Office</label>
+            <name>Mayor_s_Office</name>
+        </dataCategory>
+        <dataCategory>
+            <label>MDO - Performance Management/PhillyStat</label>
+            <name>Managing_Director_s_Office</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Neighborhood Services</label>
+            <name>Neighborhood_Services</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Animals</label>
+                <name>Animals</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Neighbor Dispute</label>
+                <name>Neighbor_Dispute</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Non-City Legal Issue</label>
+                <name>Non_City_Legal_Issue</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Private Property</label>
+                <name>Private_Property</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PECO</label>
+                <name>PECO</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PGW</label>
+                <name>PGW</name>
+            </dataCategory>
+            <dataCategory>
+                <label>School Information</label>
+                <name>School_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Senior Services</label>
+                <name>Senior_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Septa</label>
+                <name>Septa_Agency</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Transportation</label>
+                <name>Transportation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Wildlife</label>
+                <name>Wildlife</name>
+            </dataCategory>
+            <dataCategory>
+                <label>411</label>
+                <name>X411</name>
+            </dataCategory>
+            <dataCategory>
+                <label>211</label>
+                <name>X211</name>
+            </dataCategory>
+            <label>Non-City Agency</label>
+            <name>Non_City_Agency</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Office of Supportive Housing</label>
+            <name>Office_of_Supportive_Housing</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Office of Economic Opportunity</label>
+            <name>Office_of_Economic_Opportunity</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Public Safety</label>
+                <name>Public_Safety</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ready Philadelphia</label>
+                <name>Ready_Philadelphia</name>
+            </dataCategory>
+            <label>Office of Emergency Management</label>
+            <name>Office_of_Emergency_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>City Jobs</label>
+                <name>City_Jobs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>City Personnel Records</label>
+                <name>City_Personnel_Records</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Employment Verification</label>
+                <name>Employment_Verification</name>
+            </dataCategory>
+            <label>Office of Human Resources</label>
+            <name>Office_of_Human_Resources</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>IT Support</label>
+                <name>IT_Support</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Open Data</label>
+                <name>Open_Data</name>
+            </dataCategory>
+            <label>Office of Innovation and Technology</label>
+            <name>Office_of_Innovation_and_Technology</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Administrative review</label>
+                <name>Administrative_review</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Budget</label>
+                <name>Budget</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bureau of Administrative Adjudication</label>
+                <name>Bureau_of_Administrative_Adjudication</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Contracts</label>
+                <name>Contracts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Grants</label>
+                <name>Grants</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Risk Management</label>
+                <name>Risk_Management</name>
+            </dataCategory>
+            <label>Office of the Director of Finance</label>
+            <name>Office_of_the_Director_of_Finance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Office of the Inspector General</label>
+            <name>Office_of_the_Inspector_General</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Abatements &amp; Exemptions</label>
+                <name>Abatements_Exemptions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Property Information</label>
+                <name>Property_Information</name>
+            </dataCategory>
+            <label>Office of Property Assessment</label>
+            <name>Office_of_Property_Assessment</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Location Info</label>
+                <name>Location_Info</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Park Permit</label>
+                <name>Park_Permit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Programs</label>
+                <name>Programs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Summer Camp/ Programs</label>
+                <name>Summer_Camp_Programs</name>
+            </dataCategory>
+            <label>Parks &amp; Recreation</label>
+            <name>Parks_Recreation</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Pensions Department</label>
+            <name>Pensions_Department</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Bail</label>
+                <name>Bail</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Court Information</label>
+                <name>Court_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Judge Info</label>
+                <name>Judge_Info</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Jury Duty</label>
+                <name>Jury_Duty</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Probation / Parole</label>
+                <name>Probation_Parole</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Public Defender</label>
+                <name>Public_Defender</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Warrants</label>
+                <name>Warrants</name>
+            </dataCategory>
+            <label>Philadelphia Courts</label>
+            <name>Philadelphia_Courts</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Air Quality &amp; Noise</label>
+                <name>Air_Quality_Noise</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Disease Control</label>
+                <name>Disease_Control</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Enviroment Information</label>
+                <name>Enviroment_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Food Protection</label>
+                <name>Food_Protection</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Health Center Services</label>
+                <name>Health_Center_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medical Examiner/ Morgue</label>
+                <name>Medical_Examiner_Morgue</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vector Control</label>
+                <name>Vector_Control</name>
+            </dataCategory>
+            <label>Public Health</label>
+            <name>Public_Health</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Philadelphia Housing Authority</label>
+            <name>Philadelphia_Housing_Authority</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Home Repair Systems</label>
+                <name>Home_Repair_Systems</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Weatherization Assistance</label>
+                <name>Weatherization_Assistance</name>
+            </dataCategory>
+            <label>Philadelphia Housing Development Corp</label>
+            <name>Philadelphia_Housing_Development_Corp</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Philadelphia Parking Authority</label>
+            <name>Philadelphia_Parking_Authority</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Internal Affairs (Police)</label>
+                <name>Internal_Affairs_Police</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Police District Info</label>
+                <name>Police_District_Info</name>
+            </dataCategory>
+            <label>Police Department</label>
+            <name>Police_Department</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Prison Information</label>
+                <name>Prison_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Prisoner / Inmate Locator</label>
+                <name>Prisoner_Inmate_Locator</name>
+            </dataCategory>
+            <label>Prisons</label>
+            <name>Prisons</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Procurement Department</label>
+            <name>Procurement_Department</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Philadelphia International Airport</label>
+            <name>Philadelphia_International_Airport</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Philadelphia Redevelopment Authority</label>
+            <name>Philadelphia_Redevelopment_Authority</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Water Emergency</label>
+                <name>Water_Emergency</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Water Main</label>
+                <name>Water_Main</name>
+            </dataCategory>
+            <label>Philadelphia Water Department</label>
+            <name>Philadelphia_Water_Department</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Internal Procedures</label>
+                <name>Internal_Procedures</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Non-responsive/ Hang up</label>
+                <name>Non_responsive_Hang_up</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Service Request / Follow-up</label>
+                <name>Service_Request_Follow_up</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Wrong Number</label>
+                <name>Wrong_Number</name>
+            </dataCategory>
+            <label>Philly311</label>
+            <name>Philly311</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Public Property</label>
+            <name>Public_Property</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>City Hall Marriage</label>
+                <name>City_Hall_Marriage</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Copy of Marriage Licence</label>
+                <name>Copy_of_Marriage_Licence</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Marriage License</label>
+                <name>Marriage_License</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Wills</label>
+                <name>Wills</name>
+            </dataCategory>
+            <label>Register of Wills/ Orphans Court</label>
+            <name>Register_of_Wills_Orphans_Court</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Business Tax</label>
+                <name>Business_Tax</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Individual Tax</label>
+                <name>Individual_Tax</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Water Bill</label>
+                <name>Water_Bill</name>
+            </dataCategory>
+            <label>Revenue</label>
+            <name>Revenue</name>
+        </dataCategory>
+        <dataCategory>
+            <label>SEPTA</label>
+            <name>SEPTA</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Sheriff&apos;s Office (Warrants)</label>
+            <name>Sheriff_s_Office</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Birth / Death Records</label>
+                <name>Birth_Death_Records</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Census</label>
+                <name>Census</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Contact Information</label>
+                <name>Contact_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Civil Service Commission</label>
+                <name>Civil_Service_Commission</name>
+            </dataCategory>
+            <dataCategory>
+                <label>IRS</label>
+                <name>IRS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Immigration Services</label>
+                <name>Immigration_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mortgage / Foreclosure Assistance</label>
+                <name>Mortgage_Foreclosure_Assistance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Passport</label>
+                <name>Passport</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PennDOT</label>
+                <name>PennDOT</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Policy / Law Opinion</label>
+                <name>Policy_Law_Opinion</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Rental/Utilities</label>
+                <name>Rental_Utilities</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Social Services</label>
+                <name>Social_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>State Police</label>
+                <name>State_Police</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Unemployment</label>
+                <name>Unemployment</name>
+            </dataCategory>
+            <label>State/Federal Offices</label>
+            <name>State_Federal_Offices</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Block Party</label>
+                <name>Block_Party</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Permit Info</label>
+                <name>Permit_Info</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Philly More Beautiful / SWEEP</label>
+                <name>Philly_More_Beautiful_SWEEP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recycling</label>
+                <name>Recycling</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sanitation Yard</label>
+                <name>Sanitation_Yard</name>
+            </dataCategory>
+            <label>Streets Department</label>
+            <name>Streets_Department</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Tax Review Board</label>
+            <name>Tax_Review_Board</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Veterans Advisory Commission</label>
+            <name>Veterans_Advisory_Commission</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Departmental</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

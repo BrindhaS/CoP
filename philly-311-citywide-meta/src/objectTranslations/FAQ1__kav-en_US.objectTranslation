@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FAQ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FAQ&apos;s</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent Info --></label>
+        <name>Agent_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment --></label>
+        <name>Attachments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Novo Author --></label>
+        <name>Author_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populated with Novo Author Name if article is imported else with CreatedBy.Name --></help>
+        <label><!-- Author --></label>
+        <name>Author__c</name>
+    </fields>
+    <fields>
+        <label><!-- City Employees Info --></label>
+        <name>City_Employees_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Novo Created Date --></label>
+        <name>Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>Behavioral Health and Intellectual Disability Services- DBHIDS</masterLabel>
+            <translation><!-- Behavioral Health and Intellectual Disability Services- DBHIDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board of Pensions</masterLabel>
+            <translation><!-- Board of Pensions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board of Revision of Taxes- BRT</masterLabel>
+            <translation><!-- Board of Revision of Taxes- BRT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital Programs Office- CPO</masterLabel>
+            <translation><!-- Capital Programs Office- CPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Commissioners Office</masterLabel>
+            <translation><!-- City Commissioners Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Controller</masterLabel>
+            <translation><!-- City Controller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Council</masterLabel>
+            <translation><!-- City Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Planning Commission</masterLabel>
+            <translation><!-- City Planning Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Representative</masterLabel>
+            <translation><!-- City Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Treasurer&apos;s Office</masterLabel>
+            <translation><!-- City Treasurer&apos;s Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commerce Department</masterLabel>
+            <translation><!-- Commerce Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Life Improvement Program</masterLabel>
+            <translation><!-- Community Life Improvement Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department of Human Services- DHS</masterLabel>
+            <translation><!-- Department of Human Services- DHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department of Public Health</masterLabel>
+            <translation><!-- Department of Public Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department of Records</masterLabel>
+            <translation><!-- Department of Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District Attorney&apos;s Office</masterLabel>
+            <translation><!-- District Attorney&apos;s Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethics Board</masterLabel>
+            <translation><!-- Ethics Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Housing Commission</masterLabel>
+            <translation><!-- Fair Housing Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Department</masterLabel>
+            <translation><!-- Fire Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Judicial District/Courts</masterLabel>
+            <translation><!-- First Judicial District/Courts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet Management</masterLabel>
+            <translation><!-- Fleet Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Library</masterLabel>
+            <translation><!-- Free Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Historical Commission</masterLabel>
+            <translation><!-- Historical Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Relations Commission</masterLabel>
+            <translation><!-- Human Relations Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Department/ City Solicitor</masterLabel>
+            <translation><!-- Law Department/ City Solicitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License &amp; Inspections</masterLabel>
+            <translation><!-- License &amp; Inspections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managing Director&apos;s Office- MDO</masterLabel>
+            <translation><!-- Managing Director&apos;s Office- MDO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayor&apos;s Office</masterLabel>
+            <translation><!-- Mayor&apos;s Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayor&apos;s Office of Transportation and Utilities- MOTU</masterLabel>
+            <translation><!-- Mayor&apos;s Office of Transportation and Utilities- MOTU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Arts, Culture &amp; Creative Economy- OACCE</masterLabel>
+            <translation><!-- Office of Arts, Culture &amp; Creative Economy- OACCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Economic Opportunity- OEO</masterLabel>
+            <translation><!-- Office of Economic Opportunity- OEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Emergency Management- OEM</masterLabel>
+            <translation><!-- Office of Emergency Management- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Housing &amp; Community Development- OHCD</masterLabel>
+            <translation><!-- Office of Housing &amp; Community Development- OHCD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Human Resources- OHR</masterLabel>
+            <translation><!-- Office of Human Resources- OHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Innovation and Technology- OIT</masterLabel>
+            <translation><!-- Office of Innovation and Technology- OIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Property Assessment- OPA</masterLabel>
+            <translation><!-- Office of Property Assessment- OPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of Supportive Housing- OSH</masterLabel>
+            <translation><!-- Office of Supportive Housing- OSH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of the Director of Finance</masterLabel>
+            <translation><!-- Office of the Director of Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of the Inspector General</masterLabel>
+            <translation><!-- Office of the Inspector General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parks &amp; Recreation</masterLabel>
+            <translation><!-- Parks &amp; Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philadelphia Housing Authority- PHA</masterLabel>
+            <translation><!-- Philadelphia Housing Authority- PHA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philadelphia Housing Development Corporation- PHDC</masterLabel>
+            <translation><!-- Philadelphia Housing Development Corporation- PHDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philadelphia International Airport</masterLabel>
+            <translation><!-- Philadelphia International Airport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philadelphia Parking Authority- PPA</masterLabel>
+            <translation><!-- Philadelphia Parking Authority- PPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philadelphia Redevelopment Authority- PRA</masterLabel>
+            <translation><!-- Philadelphia Redevelopment Authority- PRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philly311 Contact Center</masterLabel>
+            <translation><!-- Philly311 Contact Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police Department</masterLabel>
+            <translation><!-- Police Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prisons</masterLabel>
+            <translation><!-- Prisons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Probation/Parole</masterLabel>
+            <translation><!-- Probation/Parole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procurement Department</masterLabel>
+            <translation><!-- Procurement Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Property</masterLabel>
+            <translation><!-- Public Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Register of Wills/ Orphans Court</masterLabel>
+            <translation><!-- Register of Wills/ Orphans Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revenue</masterLabel>
+            <translation><!-- Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheriff&apos;s Department</masterLabel>
+            <translation><!-- Sheriff&apos;s Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State/Federal Government Offices</masterLabel>
+            <translation><!-- State/Federal Government Offices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Streets Department</masterLabel>
+            <translation><!-- Streets Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veteran&apos;s Advisory Commission</masterLabel>
+            <translation><!-- Veteran&apos;s Advisory Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Department (PWD)</masterLabel>
+            <translation><!-- Water Department (PWD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Revenue</masterLabel>
+            <translation><!-- Water Revenue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Keywords --></label>
+        <name>Keywords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Links --></label>
+        <name>Links__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pictures --></label>
+        <name>Pictures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>Public_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Articles --></label>
+        <name>Related_Articles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Case --></label>
+        <name>Related_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Info - 311 --></label>
+        <name>Special_Info_311__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert --></label>
+        <name>Special_Info_Public__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervisor Info --></label>
+        <name>Supervisor_Info__c</name>
+    </fields>
+    <layouts>
+        <layout>FAQ Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Article Information --></label>
+            <section>Article Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FAQ Layout pkb</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Article Information --></label>
+            <section>Article Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

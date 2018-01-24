@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>CollaborationGroup$MemberCount</field>
+    </columns>
+    <description>Chatter groups within SalesForce: All 311_Employees and/or 311 Contact Center Agents &amp; Trainees</description>
+    <filter>
+        <criteriaItems>
+            <column>CollaborationGroup$Name</column>
+            <operator>equals</operator>
+            <value>311 Contact Center Agents &amp; Trainees,All 311_Employees</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CollaborationGroup$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CollaborationGroup.GroupMembers$Member</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>311 Admin Chatter Groups</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Chatter_Groups_with_Group_Members__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CollaborationGroup$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

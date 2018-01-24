@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Activity</value>
+    </caseValues>
+    <fields>
+        <label><!-- Feed Item Id --></label>
+        <name>FeedItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo Id --></label>
+        <name>PhotoId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo Preview --></label>
+        <name>PhotoPreview__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo Url --></label>
+        <name>PhotoUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volunteer --></label>
+        <name>Volunteer__c</name>
+        <relationshipLabel><!-- Activity --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Latitude --></label>
+        <name>lat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Longitude --></label>
+        <name>lng__c</name>
+    </fields>
+    <layouts>
+        <layout>ActivityLogLayout</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
